@@ -1,0 +1,3 @@
+displayName = TerMerica
+author = autism_manifesto
+version = 1.5.3

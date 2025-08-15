@@ -1,0 +1,3253 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	PenisBlaster: {
+		DisplayName: Penis Blaster
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	vp70: {
+		DisplayName: VP70
+		Tooltip: ""
+	}
+
+	AK47: {
+		DisplayName: AK-47
+		Tooltip: ""
+	}
+
+	VP70: {
+		DisplayName: VP70
+		Tooltip: ""
+	}
+
+	SpecOpsRifle: {
+		DisplayName: Spec Ops Rifle
+		Tooltip: ""
+	}
+
+	AA12: {
+		DisplayName: AA-12
+		Tooltip: ""
+	}
+
+	ATFsNightmare: {
+		DisplayName: ATF's Nightmare
+		Tooltip: ""
+	}
+
+	TheSecondAmendment: {
+		DisplayName: The Second Amendment
+		Tooltip: ""
+	}
+
+	GlockAndBalls: {
+		DisplayName: Glock And Balls
+		Tooltip: ""
+	}
+
+	Glock: {
+		Tooltip: ""
+		DisplayName: Glock
+	}
+
+	BidenBlaster: {
+		DisplayName: Biden Blaster
+		Tooltip: ""
+	}
+
+	ReagansBuzzsaw: {
+		Tooltip: ""
+		DisplayName: Reagan's Buzzsaw
+	}
+
+	TruthSeekersDMR: {
+		Tooltip: ""
+		DisplayName: Truth Seekers' DMR
+	}
+
+	EnfieldRifle: {
+		DisplayName: Enfield Rifle
+		Tooltip: ""
+	}
+
+	M1Garand: {
+		Tooltip: ""
+		DisplayName: M1 Garand
+	}
+
+	FreeBird: {
+		Tooltip: ""
+		DisplayName: Free Bird
+	}
+
+	Normandy42: {
+		Tooltip: ""
+		DisplayName: Normandy 42
+	}
+
+	Shitballs: {
+		Tooltip: ""
+		DisplayName: Shitballs
+	}
+
+	GenocideEnder: {
+		Tooltip: ""
+		DisplayName: Normandy 42
+	}
+
+	TommyGun: {
+		DisplayName: Tommy Gun
+		Tooltip: ""
+	}
+
+	Brainderbuss: {
+		DisplayName: Brainderbuss
+		Tooltip: ""
+	}
+
+	ToothlessWyrm: {
+		DisplayName: Toothless Wyrm
+		Tooltip: ""
+	}
+
+	StalingradSpewer: {
+		DisplayName: Stalingrad Spewer
+		Tooltip: ""
+	}
+
+	beesnipe: {
+		DisplayName: 50 Bee-MG
+		Tooltip: ""
+	}
+
+	MechanicalMurdergun: {
+		DisplayName: Mechanical Murdergun
+		Tooltip: ""
+	}
+
+	SuperSamuraiSlicer: {
+		Tooltip: ""
+		DisplayName: Super Samurai Slicer
+	}
+
+	BunnyBomber: {
+		DisplayName: Bunny Bomber
+		Tooltip: ""
+	}
+
+	PixelPrototype: {
+		DisplayName: Prototype P2W-1
+		Tooltip: ""
+	}
+
+	IForgor: {
+		Tooltip: ""
+		DisplayName: I Forgor
+	}
+
+	BiosphereSterilizer: {
+		DisplayName: Biosphere Sterilizer
+		Tooltip: ""
+	}
+
+	PissMissile: {
+		DisplayName: Piss Missile
+		Tooltip: ""
+	}
+
+	RocketNeg1: {
+		DisplayName: Rocket -I
+		Tooltip: ""
+	}
+
+	AgentGreenRocket: {
+		DisplayName: Agent Green Rocket
+		Tooltip: ""
+	}
+
+	TheJfkExperience: {
+		DisplayName: The Jfk Experience
+		Tooltip: ""
+	}
+
+	WandOfTheOvercompensator: {
+		DisplayName: Wand Of The Overcompensator
+		Tooltip: ""
+	}
+
+	PocketMortar: {
+		DisplayName: Pocket Mortar
+		Tooltip: ""
+	}
+
+	BeetleRounds: {
+		Tooltip: ""
+		DisplayName: Beetle Rounds
+	}
+
+	LaserCharge: {
+		Tooltip: ""
+		DisplayName: Laser Charge
+	}
+
+	PlanetoidPunisher: {
+		DisplayName: Planetoid Punisher
+		Tooltip: ""
+	}
+
+	Helldiver: {
+		DisplayName: Helldiver
+		Tooltip: ""
+	}
+
+	TedGun: {
+		DisplayName: Freedom Club's Freedom Dispenser
+		Tooltip: ""
+	}
+
+	AshSpewer: {
+		DisplayName: Ash Spewer
+		Tooltip: ""
+	}
+
+	HurricaneGun: {
+		Tooltip: ""
+		DisplayName: Hurricane Gun
+	}
+
+	SisyphusPrime: {
+		Tooltip: ""
+		DisplayName: Sisyphus Prime
+	}
+
+	Autocannon: {
+		Tooltip: ""
+		DisplayName: AC-8 Autocannon
+	}
+
+	DemoniteAreaDenialSystem: {
+		DisplayName: Demonite Area Denial System
+		Tooltip: ""
+	}
+
+	CrimtaneAmr: {
+		DisplayName: Crimtane Anti-Material Rifle
+		Tooltip: ""
+	}
+
+	KingslayerShell: {
+		Tooltip: ""
+		DisplayName: Spirit Slayer Shell
+	}
+
+	Kingslayer: {
+		DisplayName: Kingslayer Sword
+		Tooltip: ""
+	}
+
+	AnthraxRocket: {
+		DisplayName: Anthrax Rocket
+		Tooltip: ""
+	}
+
+	ThePrimeTime: {
+		Tooltip: ""
+		DisplayName: The Prime Time
+	}
+
+	AuspiciousArtillery: {
+		DisplayName: Auspicious Artillery
+		Tooltip: ""
+	}
+
+	ReapersConverter: {
+		Tooltip: ""
+		DisplayName: Reaper's Converter
+	}
+
+	ChristianCrossbow: {
+		DisplayName: Christian Crossbow
+		Tooltip: ""
+	}
+
+	fivenato: {
+		DisplayName: .556 Nato HollowPoint
+		Tooltip: ""
+	}
+
+	Beer: {
+		DisplayName: Beer
+		Tooltip: ""
+	}
+
+	BrokenHeroGun: {
+		DisplayName: Broken Hero Gun
+		Tooltip: ""
+	}
+
+	PoliceBaton: {
+		Tooltip: ""
+		DisplayName: Police Baton
+	}
+
+	ChromaticaAtomizer: {
+		Tooltip: ""
+		DisplayName: Chromatica Atomizer
+	}
+
+	CorruptLawman: {
+		Tooltip: ""
+		DisplayName: Corrupt Lawman
+	}
+
+	ChainCrossbow: {
+		Tooltip: ""
+		DisplayName: Chain Crossbow
+	}
+
+	CapitalistCarbine: {
+		DisplayName: Capitalist Carbine
+		Tooltip: ""
+	}
+
+	ComicallyLargeTurkeyLeg: {
+		DisplayName: Comically Large Turkey Leg
+		Tooltip: ""
+	}
+
+	LeafStorm: {
+		Tooltip: ""
+		DisplayName: Leaf Storm
+	}
+
+	NapalmBlade: {
+		Tooltip: ""
+		DisplayName: Napalm Greatsword
+	}
+
+	BallisticKnife: {
+		DisplayName: Ballistic Knife
+		Tooltip: ""
+	}
+
+	TheAutismManifesto: {
+		Tooltip: ""
+		DisplayName: The Autism Manifesto
+	}
+
+	AR15: {
+		Tooltip: ""
+		DisplayName: AR-15
+	}
+
+	Reversibow: {
+		DisplayName: Reversibow
+		Tooltip: ""
+	}
+
+	Libeerator: {
+		Tooltip: ""
+		DisplayName: Libeerator
+	}
+
+	SaberOfTheEuropoor: {
+		Tooltip: ""
+		DisplayName: Saber Of The Europoor
+	}
+
+	ImprovisedPistol: {
+		Tooltip: ""
+		DisplayName: Improvised Pistol
+	}
+
+	BookOfSlurs: {
+		Tooltip: ""
+		DisplayName: Book Of Slurs
+	}
+
+	BulletBlade: {
+		Tooltip: ""
+		DisplayName: Bullet Blade
+	}
+
+	ChlorophyteShitballs: {
+		Tooltip: ""
+		DisplayName: Chlorophyte Shitballs
+	}
+
+	ClimateChanger: {
+		Tooltip: ""
+		DisplayName: Climate Changer
+	}
+
+	DracoMeteor: {
+		DisplayName: Draco Meteor
+		Tooltip: ""
+	}
+
+	BigBertha: {
+		DisplayName: Big Bertha
+		Tooltip: ""
+	}
+
+	StupidFuckingPickaxe: {
+		DisplayName: Stupid Fucking Pickaxe
+		Tooltip: ""
+	}
+
+	StupiderFuckingPickaxe: {
+		DisplayName: Stupider Fucking Pickaxe
+		Tooltip: ""
+	}
+
+	StupidestFuckingPickaxe: {
+		DisplayName: Stupidest Fucking Pickaxe
+		Tooltip: ""
+	}
+
+	Stg44: {
+		DisplayName: STG-44
+		Tooltip: ""
+	}
+
+	Barbarossa: {
+		DisplayName: Barbarossa
+		Tooltip: ""
+	}
+
+	EvilEmitter: {
+		DisplayName: Evil Emitter
+		Tooltip: ""
+	}
+
+	MixelMasher: {
+		Tooltip: ""
+		DisplayName: Mixel Masher
+	}
+
+	MinieBall: {
+		Tooltip: ""
+		DisplayName: Minie Ball
+	}
+
+	PlasticSpork: {
+		DisplayName: Plastic Spork
+		Tooltip: ""
+	}
+
+	Peanits: {
+		Tooltip: ""
+		DisplayName: Uniserval Collapse
+	}
+
+	CarbonDioxideBottle: {
+		Tooltip: ""
+		DisplayName: Carbon Dioxide in a Bottle
+	}
+
+	PoopArrow: {
+		DisplayName: Poop Arrow
+		Tooltip: ""
+	}
+
+	ShockingSurrender: {
+		DisplayName: Shocking Surrender
+		Tooltip: Ensures your enemy's surrender upon hitting them
+	}
+
+	TheBullshitter: {
+		DisplayName: The Bullshitter
+		Tooltip: ""
+	}
+
+	BitcoinBlaster: {
+		DisplayName: Bitcoin Blaster
+		Tooltip: ""
+	}
+
+	GayFrogAlchemyGuide: {
+		DisplayName: Gay Frog Alchemy Guide
+		Tooltip: ""
+	}
+
+	SkibidiToilet: {
+		DisplayName: Skibidi Toilet
+		Tooltip: ""
+	}
+
+	TerraSkibidiToilet: {
+		DisplayName: Terra Skibidi Toilet
+		Tooltip: ""
+	}
+
+	BigBuddy: {
+		DisplayName: Big Buddy
+		Tooltip: ""
+	}
+
+	ParticleGun: {
+		DisplayName: Particle Gun
+		Tooltip: ""
+	}
+
+	UnholyShitstorm: {
+		DisplayName: Unholy Shitstorm
+		Tooltip: ""
+	}
+
+	UltrabrightArrow: {
+		DisplayName: Ultrabright Arrow
+		Tooltip: ""
+	}
+
+	Polymer: {
+		DisplayName: Polymer
+		Tooltip: ""
+	}
+
+	LowTaperFader: {
+		DisplayName: Low Taper Fader
+		Tooltip: ""
+	}
+
+	SeedBomber: {
+		DisplayName: Seed Bomber
+		Tooltip: converts darts into huge barrages of explosive seeds
+	}
+
+	CryonicCarbine: {
+		DisplayName: Cryonic Carbine
+		Tooltip: ""
+	}
+
+	PlasticScrap: {
+		DisplayName: Plastic Scrap
+		Tooltip: ""
+	}
+
+	StupidEmblem: {
+		DisplayName: Stupid Emblem
+		Tooltip: ""
+	}
+
+	HallowedFedora: {
+		Tooltip: ""
+		DisplayName: Hallowed Fedora
+		SetBonus: Chance to dodge attacks
+	}
+
+	CompoundBow: {
+		DisplayName: Compound Bow
+		Tooltip: ""
+	}
+
+	TheDeposer: {
+		DisplayName: The Deposer
+		Tooltip: ""
+	}
+
+	CarbonDioxideBalloon: {
+		DisplayName: Carbon Dioxide in a Balloon
+		Tooltip: ""
+	}
+
+	DarkGrayHorseshoeBalloon: {
+		DisplayName: Dark Gray Horseshoe Balloon
+		Tooltip: ""
+	}
+
+	RectumsRequiem: {
+		DisplayName: Rectum's Requiem
+		Tooltip: ""
+	}
+
+	BadGrades: {
+		DisplayName: Bad Grades
+		Tooltip: ""
+	}
+
+	PoopSock: {
+		DisplayName: Poop Sock
+		Tooltip: ""
+	}
+
+	TrenboloneAcetate: {
+		DisplayName: Trenbolone Acetate
+		Tooltip: enemies are more likely to target the player
+	}
+
+	PocketSand: {
+		DisplayName: Pocket Sand
+		Tooltip: ""
+	}
+
+	PocketCrimsand: {
+		DisplayName: Pocket Crimsand
+		Tooltip: ""
+	}
+
+	PocketEbonsand: {
+		DisplayName: Pocket Ebonsand
+		Tooltip: ""
+	}
+
+	PocketPearlsand: {
+		DisplayName: Pocket Pearlsand
+		Tooltip: ""
+	}
+
+	ShatteredKeyboard: {
+		DisplayName: Shattered Keyboard
+		Tooltip: ""
+	}
+
+	BrainrotPotion: {
+		DisplayName: Brainrot Potion
+		Tooltip: ""
+	}
+
+	SqueakyHammer: {
+		DisplayName: Squeaky Hammer
+		Tooltip: ""
+	}
+
+	PrismaticBullet: {
+		DisplayName: Prismatic Bullet
+		Tooltip: ""
+	}
+
+	OrbitalLaserGun: {
+		DisplayName: Orbital Laser Gun
+		Tooltip: ""
+	}
+
+	RedBloonFactory: {
+		DisplayName: Red Bloon Factory
+		Tooltip: ""
+	}
+
+	RainbowBloonFactory: {
+		DisplayName: Rainbow Bloon Factory
+		Tooltip: ""
+	}
+
+	SmallSausageSpammer: {
+		DisplayName: Small Sausage Spammer
+		Tooltip: ""
+	}
+
+	MoonLandingFakingDevice: {
+		DisplayName: Moon Landing Faking Device
+		Tooltip: ""
+	}
+
+	AutismDiagnosis: {
+		DisplayName: Autism Diagnosis
+		Tooltip: ""
+	}
+
+	BowlingBaller: {
+		DisplayName: Bowling Baller
+		Tooltip: ""
+	}
+
+	PlasticChestplate: {
+		SetBonus: +5 Stupid Armor Penetration
+		DisplayName: Plastic Chestplate
+		Tooltip: ""
+	}
+
+	PlasticHeadgear: {
+		SetBonus: +5 Stupid Armor Penetration
+		DisplayName: Plastic Headgear
+		Tooltip: ""
+	}
+
+	PlasticPants: {
+		SetBonus: +5 Stupid Armor Penetration
+		DisplayName: Plastic Pants
+		Tooltip: ""
+	}
+
+	CrackedNuts: {
+		DisplayName: Cracked Nuts
+		Tooltip: ""
+	}
+
+	KevlarPants: {
+		SetBonus: 11% increased damage reduction
+		DisplayName: Kevlar Pants
+		Tooltip: ""
+	}
+
+	KevlarBodysuit: {
+		SetBonus: 11% increased damage reduction
+		DisplayName: Kevlar Bodysuit
+		Tooltip: ""
+	}
+
+	Kevlar: {
+		DisplayName: Kevlar
+		Tooltip: ""
+	}
+
+	KevlarMask: {
+		SetBonus: 11% increased damage reduction
+		DisplayName: Kevlar Mask
+		Tooltip: ""
+	}
+
+	KevlarVisor: {
+		SetBonus: 11% increased damage reduction
+		DisplayName: Kevlar Visor
+		Tooltip: ""
+	}
+
+	TintedLenses: {
+		DisplayName: Tinted Lenses
+		Tooltip: ""
+	}
+
+	PitVipers: {
+		DisplayName: Pit Vipers
+		Tooltip: ""
+	}
+
+	KevlarHelmet: {
+		SetBonus: 11% increased damage reduction
+		DisplayName: Kevlar Helmet
+		Tooltip: ""
+	}
+
+	KevlarBeret: {
+		SetBonus: 11% increased damage reduction
+		DisplayName: Kevlar Beret
+		Tooltip: ""
+	}
+
+	KevlarFedora: {
+		SetBonus: 11% increased damage reduction
+		DisplayName: Kevlar Fedora
+		Tooltip: ""
+	}
+
+	CeramicBloonFactory: {
+		DisplayName: Ceramic Bloon Factory
+		Tooltip: ""
+	}
+
+	CeramicSheet: {
+		DisplayName: Ceramic Sheet
+		Tooltip: ""
+	}
+
+	CompoundBow2: {
+		DisplayName: Compound Bow Mk.II
+		Tooltip: ""
+	}
+
+	CompoundBow3: {
+		DisplayName: Compound Bow Mk.III
+		Tooltip: ""
+	}
+
+	ZapperGun: {
+		DisplayName: Zapper Gun
+		Tooltip: ""
+	}
+
+	CeramicMachete: {
+		DisplayName: Ceramic Machete
+		Tooltip: ""
+	}
+
+	CarbonDioxideCeram: {
+		DisplayName: Carbon Dioxide Ceramic Bloon
+		Tooltip: ""
+	}
+
+	CeramicHorseshoeBalloon: {
+		DisplayName: Ceramic Horseshoe Bloon
+		Tooltip: ""
+	}
+
+	SuperCeramicFedora: {
+		SetBonus: 17% increased stupid attack speed
+		DisplayName: Super Ceramic Fedora
+		Tooltip: ""
+	}
+
+	SuperCeramicLeggings: {
+		Tooltip: ""
+		DisplayName: Super Ceramic Leggings
+		SetBonus: 17% increased stupid attack speed
+	}
+
+	SuperCeramicChestplate: {
+		Tooltip: ""
+		DisplayName: Super Ceramic Chestplate
+		SetBonus: 17% increased stupid attack speed
+	}
+
+	MediocreGrades: {
+		Tooltip: ""
+		DisplayName: Mediocre Grades
+	}
+
+	GoodGrades: {
+		Tooltip: ""
+		DisplayName: Good Grades
+	}
+
+	FragmentFlatEarth: {
+		Tooltip: ""
+		DisplayName: Flat Earth Fragment
+	}
+
+	TheMoon: {
+		Tooltip: ""
+		DisplayName: Literally The Fucking Moon
+	}
+
+	CookingPot: {
+		Tooltip: ""
+		DisplayName: Cooking Pot
+	}
+
+	CraterCreator: {
+		Tooltip: ""
+		DisplayName: Crater Creator
+	}
+
+	CopperShortgun: {
+		Tooltip: ""
+		DisplayName: Copper Shortgun
+	}
+
+	DaedalusStormgun: {
+		Tooltip: ""
+		DisplayName: Daedalus Stormgun
+	}
+
+	FaradayBodyArmor: {
+		SetBonus: The globalist 5G waves are no longer reducing your max life
+		DisplayName: Faraday Body Armor
+		Tooltip: +3 HP/Sec life regen
+	}
+
+	FaradayFedora: {
+		SetBonus: The globalist 5G waves are no longer reducing your max life
+		DisplayName: Faraday Fedora
+		Tooltip: +2 HP/Sec life regen
+	}
+
+	FaradayPants: {
+		SetBonus: The globalist 5G waves are no longer reducing your max life
+		DisplayName: Faraday Pants
+		Tooltip: +2 HP/Sec life regen
+	}
+
+	SuperCeramicBloonFactory: {
+		DisplayName: Super Ceramic Bloon Factory
+		Tooltip: ""
+	}
+
+	CopperShortmachinegun: {
+		Tooltip: ""
+		DisplayName: Copper Shortmachinegun
+	}
+
+	FuckOffItem: {
+		DisplayName: Fuck Off Item
+		Tooltip: ""
+	}
+
+	FlatEarthHamaxe: {
+		DisplayName: Flat Earth Hamaxe
+		Tooltip: ""
+	}
+
+	FlatEarthPickaxe: {
+		DisplayName: Flat Earth Pickaxe
+		Tooltip: ""
+	}
+
+	BOOMerang: {
+		DisplayName: BOOM-erang
+		Tooltip: ""
+	}
+
+	RockSalt: {
+		DisplayName: Rock Salt
+		Tooltip: ""
+	}
+
+	SaltGun: {
+		DisplayName: Salt Gun
+		Tooltip: ""
+	}
+
+	ASaltRifle: {
+		DisplayName: A Salt Rifle
+		Tooltip: ""
+	}
+
+	PurifiedSalt: {
+		DisplayName: Purified Salt
+		Tooltip: ""
+	}
+
+	RockSaltChestplate: {
+		SetBonus: +2.5 hp/s life regen and 100% negated fall damage
+		DisplayName: Rock Salt Chestplate
+		Tooltip: ""
+	}
+
+	RockSaltFedora: {
+		SetBonus: +2.5 hp/s life regen and 100% negated fall damage
+		DisplayName: Rock Salt Fedora
+		Tooltip: ""
+	}
+
+	RockSaltLeggings: {
+		SetBonus: +2.5 hp/s life regen and 100% negated fall damage
+		DisplayName: Rock Salt Leggings
+		Tooltip: ""
+	}
+
+	SodiumPickaxe: {
+		DisplayName: Sodium Pickaxe
+		Tooltip: ""
+	}
+
+	PurifiedSaltChestplate: {
+		SetBonus: Your connection to the heavens grant you extra flight time and +5 hp/s life regen
+		DisplayName: Purified Salt Chestplate
+		Tooltip: ""
+	}
+
+	PurifiedSaltFedora: {
+		SetBonus: Your connection to the heavens grant you extra flight time and +5 hp/s life regen
+		DisplayName: Purified Salt Fedora
+		Tooltip: ""
+	}
+
+	PurifiedSaltLeggings: {
+		SetBonus: Your connection to the heavens grant you extra flight time and +5 hp/s life regen
+		DisplayName: Purified Salt Leggings
+		Tooltip: ""
+	}
+
+	ThePurifier: {
+		DisplayName: The Purifier
+		Tooltip: ""
+	}
+
+	SaltShaker: {
+		DisplayName: Salt Shaker
+		Tooltip: ""
+	}
+
+	SaltyShot: {
+		DisplayName: Salty Shot
+		Tooltip: ""
+	}
+
+	SodiumHamaxe: {
+		DisplayName: Sodium Hamaxe
+		Tooltip: ""
+	}
+
+	SoulContainmentSlasher: {
+		DisplayName: Soul Containment Slasher
+		Tooltip: ""
+	}
+
+	LegoBricks: {
+		DisplayName: Lego Bricks
+		Tooltip: ""
+	}
+
+	LegoLauncher: {
+		DisplayName: Lego Launcher
+		Tooltip: ""
+	}
+
+	BrickPick: {
+		DisplayName: Brick Pick
+		Tooltip: ""
+	}
+
+	PurifiedSaltBlock: {
+		DisplayName: Purified Salt Block
+		Tooltip: ""
+	}
+
+	RockSaltBlock: {
+		DisplayName: Rock Salt Block
+		Tooltip: ""
+	}
+
+	GagGifter: {
+		DisplayName: Gag Gifter
+		Tooltip: ""
+	}
+
+	TinShortgun: {
+		DisplayName: Tin Shortgun
+		Tooltip: ""
+	}
+
+	TinShortmachinegun: {
+		DisplayName: Tin Shortmachinegun
+		Tooltip: ""
+	}
+
+	UraniumBar: {
+		DisplayName: Uranium Bar
+		Tooltip: ""
+	}
+
+	UraniumOre: {
+		DisplayName: Uranium Ore
+		Tooltip: ""
+	}
+
+	UraniumSword: {
+		DisplayName: Uranium Sword
+		Tooltip: ""
+	}
+
+	UraniumShotgun: {
+		DisplayName: Uranium Shotgun
+		Tooltip: ""
+	}
+
+	UraniumHamaxe: {
+		DisplayName: Uranium Hamaxe
+		Tooltip: ""
+	}
+
+	CeramicArrow: {
+		DisplayName: Ceramic Arrow
+		Tooltip: ""
+	}
+
+	UraniumChestplate: {
+		SetBonus: 12% increased attack speed, at the cost of -1 hp/s life regen
+		DisplayName: Uranium Chestplate
+		Tooltip: ""
+	}
+
+	UraniumHelmet: {
+		SetBonus: 12% increased attack speed, at the cost of -1 hp/s life regen
+		DisplayName: Uranium Helmet
+		Tooltip: ""
+	}
+
+	UraniumLeggings: {
+		SetBonus: 12% increased attack speed, at the cost of -1 hp/s life regen
+		DisplayName: Uranium Leggings
+		Tooltip: ""
+	}
+
+	UraniumBow: {
+		DisplayName: Uranium Bow
+		Tooltip: ""
+	}
+
+	FlatEarthBlock: {
+		DisplayName: Flat Earth Block
+		Tooltip: ""
+	}
+
+	RadBullet: {
+		Tooltip: ""
+		DisplayName: Rad Bullet
+	}
+
+	PlasmaRifle: {
+		DisplayName: Plasma Rifle
+		Tooltip: ""
+	}
+
+	KevlarWhip: {
+		DisplayName: Kevlar Whip
+		Tooltip: ""
+	}
+
+	PlasmoidWand: {
+		Tooltip: ""
+		DisplayName: Plasmoid Wand
+	}
+
+	River: {
+		DisplayName: River
+		Tooltip: ""
+	}
+
+	PortableTower: {
+		DisplayName: Portable 5G Tower
+		Tooltip: ""
+	}
+
+	TheAirFlare: {
+		DisplayName: The Air Flare
+		Tooltip: ""
+	}
+
+	TheNanoshot: {
+		DisplayName: The Nanoshot
+		Tooltip: Converts all ammo into Nano Bullets
+	}
+
+	Shitgun: {
+		DisplayName: Shitgun
+		Tooltip: ""
+	}
+
+	TheCommunistManifesto: {
+		Tooltip: ""
+		DisplayName: The Communist Manifesto
+	}
+
+	ImprovisedMachineGun: {
+		DisplayName: Improvised Machine Gun
+		Tooltip: ""
+	}
+
+	PocketBees: {
+		Tooltip: ""
+		DisplayName: Pocket Bees
+	}
+
+	BBC: {
+		DisplayName: Bigger, Blacker Cannon
+		Tooltip: ""
+	}
+
+	GiantBone: {
+		DisplayName: Comically Large Bone
+		Tooltip: ""
+	}
+
+	Dartclone: {
+		DisplayName: Dartclone
+		Tooltip: ""
+	}
+
+	TrueJfkExperience: {
+		DisplayName: True Jfk Experience
+		Tooltip: ""
+	}
+
+	SpiritProtectionCharm: {
+		DisplayName: Spirit Protection Charm
+		Tooltip: ""
+	}
+
+	Iphone: {
+		DisplayName: Iphone
+		Tooltip: ""
+	}
+
+	PlutoniumBow: {
+		DisplayName: Plutonium Bow
+		Tooltip: ""
+	}
+
+	PlutoniumSword: {
+		Tooltip: ""
+		DisplayName: Plutonium Sword
+	}
+
+	PlutoniumOre: {
+		Tooltip: ""
+		DisplayName: Plutonium Ore
+	}
+
+	PlutoniumBar: {
+		Tooltip: ""
+		DisplayName: Plutonium Bar
+	}
+
+	PlutoniumAutoPistol: {
+		Tooltip: ""
+		DisplayName: Plutonium Auto Pistol
+	}
+
+	ElephantsThrow: {
+		Tooltip: ""
+		DisplayName: Elephant's Throw
+	}
+
+	TheXRay: {
+		Tooltip: ""
+		DisplayName: The X-Ray
+	}
+
+	PlutoniumPants: {
+		Tooltip: -0.5 hp/s life regen
+		DisplayName: Plutonium Pants
+		SetBonus: 16% increased attack speed, at the cost of 12.5% max life
+	}
+
+	PlutoniumFacemask: {
+		Tooltip: -0.5 hp/s life regen
+		DisplayName: Plutonium Facemask
+		SetBonus: 16% increased attack speed, at the cost of 12.5% max life
+	}
+
+	PlutoniumChestplate: {
+		Tooltip: -0.5 hp/s life regen
+		DisplayName: Plutonium Chestplate
+		SetBonus: 16% increased attack speed, at the cost of 12.5% max life
+	}
+
+	UraniumPickaxe: {
+		Tooltip: ""
+		DisplayName: Uranium Pickaxe
+	}
+
+	PlutoniumPickaxe: {
+		Tooltip: ""
+		DisplayName: Plutonium Pickaxe
+	}
+
+	PlutoniumHamaxe: {
+		DisplayName: Plutonium Hamaxe
+		Tooltip: ""
+	}
+
+	ChainReaction: {
+		DisplayName: Chain Reaction
+		Tooltip: ""
+	}
+
+	RadRang: {
+		DisplayName: Rad Rang
+		Tooltip: ""
+	}
+
+	AstatineArrow: {
+		DisplayName: Astatine Arrow
+		Tooltip: ""
+	}
+
+	AstatineBar: {
+		DisplayName: Astatine Bar
+		Tooltip: ""
+	}
+
+	AstatineOre: {
+		DisplayName: Astatine Ore
+		Tooltip: ""
+	}
+
+	AstatineAnnihilator: {
+		DisplayName: Astatine Annihilator
+		Tooltip: ""
+	}
+
+	PlasmaRifle2: {
+		DisplayName: Plasma Rifle Mk.II
+		Tooltip: ""
+	}
+
+	PlasmaRifle3: {
+		DisplayName: Plasma Rifle Mk.III
+		Tooltip: ""
+	}
+
+	AstatineBreastplate: {
+		SetBonus: +30% crit chance at the cost of -15% max life
+		DisplayName: Astatine Breastplate
+		Tooltip: ""
+	}
+
+	AstatineGreaves: {
+		SetBonus: +30% crit chance at the cost of -15% max life
+		DisplayName: Astatine Greaves
+		Tooltip: ""
+	}
+
+	AstatineHelmet: {
+		SetBonus: +30% crit chance at the cost of -15% max life
+		DisplayName: Astatine Helmet
+		Tooltip: ""
+	}
+
+	AstatinePolearm: {
+		DisplayName: Astatine Polearm
+		Tooltip: ""
+	}
+
+	RadioactiveEmblem: {
+		DisplayName: Radiation Emblem
+		Tooltip: -15% max life
+	}
+
+	GeigersGambit: {
+		DisplayName: Geiger's Gambit
+		Tooltip: ""
+	}
+
+	PowerChestplate: {
+		DisplayName: T-45 Power Torso
+		Tooltip: ""
+		SetBonus: Mods.gunrightsmod.Items.PowerChestplate.SetBonus
+	}
+
+	PowerHelmet: {
+		DisplayName: T-45 Power Helmet
+		Tooltip: ""
+		SetBonus: Mods.gunrightsmod.Items.PowerHelmet.SetBonus
+	}
+
+	PowerPants: {
+		DisplayName: T-45 Power Leggings
+		Tooltip: ""
+		SetBonus: Mods.gunrightsmod.Items.PowerPants.SetBonus
+	}
+
+	AstatineMarksmanRifle: {
+		DisplayName: Astatine Marksman Rifle
+		Tooltip: ""
+	}
+
+	Sublimination: {
+		DisplayName: Sublimination
+		Tooltip: Uses gel as ammo highly efficently
+	}
+
+	CrossbowBolt: {
+		DisplayName: Crossbow Bolt
+		Tooltip: ""
+	}
+
+	PurifiedBolt: {
+		DisplayName: Purified Bolt
+		Tooltip: ""
+	}
+
+	TheMeltdown: {
+		DisplayName: The Meltdown
+		Tooltip: ""
+	}
+
+	RadioactiveAura: {
+		DisplayName: Radioactive Aura
+		Tooltip: ""
+	}
+
+	IrradiatedFisticuffs: {
+		DisplayName: Irradiated Fisticuffs
+		Tooltip: -2 hp/s life regen
+	}
+
+	SaltPendant: {
+		DisplayName: Salt Pendant
+		Tooltip: ""
+	}
+
+	DirtyRocket1: {
+		DisplayName: Dirty Rocket I
+		Tooltip: ""
+	}
+
+	DirtyRocket2: {
+		DisplayName: Dirty Rocket II
+		Tooltip: ""
+	}
+
+	DirtyRocket3: {
+		DisplayName: Dirty Rocket III
+		Tooltip: ""
+	}
+
+	LuckyCigarette: {
+		SetBonus: Mods.gunrightsmod.Items.LuckyCigarette.SetBonus
+		DisplayName: Lucky Cigarette
+		Tooltip: ""
+	}
+
+	SodiumShotbow: {
+		Tooltip: ""
+		DisplayName: Sodium Shotbow
+	}
+
+	BalkanRagePotion: {
+		DisplayName: Balkan Rage Potion
+		Tooltip:
+			'''
+			Increases crit chance by 12% and attack speed by 4%
+			Reduces defense by 6
+			'''
+	}
+
+	BionicBoomer: {
+		Tooltip: ""
+		DisplayName: Bionic Boomer
+	}
+
+	HarryPotter: {
+		DisplayName: Harry Potter
+		Tooltip: ""
+	}
+
+	PhatBlunt: {
+		DisplayName: Phat Blunt
+		Tooltip: ""
+	}
+
+	PurifiedPolearm: {
+		DisplayName: Purified Polearm
+		Tooltip: ""
+	}
+
+	FissionRod: {
+		DisplayName: Fission Rod
+		Tooltip: ""
+	}
+
+	SaltBae: {
+		DisplayName: Salt Bae
+		Tooltip: ""
+	}
+
+	TheSaltLick: {
+		DisplayName: The Salt Lick
+		Tooltip: ""
+	}
+
+	DiamondMultiaxe: {
+		DisplayName: Diamond Multiaxe
+		Tooltip: ""
+	}
+
+	NerfGun: {
+		DisplayName: Nerf Gun
+		Tooltip: ""
+	}
+
+	ThumbtackDart: {
+		DisplayName: Thumbtack Dart
+		Tooltip: ""
+	}
+
+	SacrificialPistol: {
+		DisplayName: Sacrificial Pistol
+		Tooltip: Converts darts into a constant stream of blood through ancient vampiric metallurgy
+	}
+
+	DiseaseBlaster: {
+		DisplayName: Disease Blaster
+		Tooltip: ""
+	}
+
+	BombScepter: {
+		DisplayName: Bomb Scepter
+		Tooltip: ""
+	}
+
+	CeramicDart: {
+		DisplayName: Ceramic-Tipped Dart
+		Tooltip: ""
+	}
+
+	IncendiaryDart: {
+		DisplayName: Incendiary Dart
+		Tooltip: ""
+	}
+
+	Liquidation: {
+		DisplayName: Liquidation
+		Tooltip: ""
+	}
+
+	ChlorophyteDart: {
+		DisplayName: Chlorophyte Dart
+		Tooltip: ""
+	}
+
+	PermafrostDart: {
+		DisplayName: Permafrost Dart
+		Tooltip: ""
+	}
+
+	BeeSnipe: {
+		DisplayName: .50 Bee-MG
+		Tooltip: ""
+	}
+
+	DartShotgun: {
+		DisplayName: Dart Shotgun
+		Tooltip: ""
+	}
+
+	TorchSong: {
+		DisplayName: Torch Song
+		Tooltip: ""
+	}
+
+	Moonrise: {
+		DisplayName: Moonrise
+		Tooltip: ""
+	}
+
+	FissileDart: {
+		DisplayName: Fissile Dart
+		Tooltip: ""
+	}
+
+	TheFishStick: {
+		DisplayName: The Fish Stick
+		Tooltip: ""
+	}
+
+	FlippingBottle: {
+		DisplayName: Flipping Bottle
+		Tooltip: ""
+	}
+
+	TheBoner: {
+		DisplayName: The Boner
+		Tooltip: ""
+	}
+
+	ImprovisedLaserSight: {
+		DisplayName: Improvised Laser Sight
+		Tooltip: ""
+	}
+
+	MarksmanLaserSight: {
+		DisplayName: Marksman's Laser Sight
+		Tooltip: ""
+	}
+
+	TacticalLaserSight: {
+		DisplayName: Tactical Laser Sight
+		Tooltip: ""
+	}
+
+	PulsePistols: {
+		DisplayName: Pulse Pistols
+		Tooltip: ""
+	}
+
+	TheMonkeysPaw: {
+		Tooltip: ""
+		DisplayName: The Monkey's Paw
+	}
+
+	SuperMonkeysPaw: {
+		Tooltip: ""
+		DisplayName: Super Monkey's Paw
+	}
+
+	LaserMonkeysPaw: {
+		Tooltip: ""
+		DisplayName: Laser Monkey's Paw
+	}
+
+	PlasmaMonkeysPaw: {
+		Tooltip: ""
+		DisplayName: Plasma Monkey's Paw
+	}
+
+	K2Avalanche: {
+		Tooltip: ""
+		DisplayName: K2 Avalanche
+	}
+
+	ThankYou: {
+		DisplayName: Thank You
+		Tooltip: ""
+	}
+
+	WhippetWhip: {
+		DisplayName: Whippet Whip
+		Tooltip: 4 summon tag damage
+	}
+
+	KulakWings: {
+		DisplayName: Kulak Wings
+		Tooltip: ""
+	}
+
+	Naclslash: {
+		DisplayName: Naclslash
+		Tooltip: ""
+	}
+
+	RunicRaygun: {
+		DisplayName: Runic Raygun
+		Tooltip: ""
+	}
+
+	ZazaBreath: {
+		Tooltip: ""
+		DisplayName: Zaza Breath
+	}
+
+	CardinalSin: {
+		DisplayName: Cardinal Sin
+		Tooltip: ""
+	}
+
+	ShadewoodWand: {
+		Tooltip: ""
+		DisplayName: Shadewood Wand
+	}
+
+	EbonwoodWand: {
+		Tooltip: ""
+		DisplayName: Ebonwood Wand
+	}
+
+	PearlwoodWand: {
+		Tooltip: ""
+		DisplayName: Pearlwood Wand
+	}
+
+	TriAttack: {
+		Tooltip: ""
+		DisplayName: Tri Attack
+	}
+
+	UnicornPoacher: {
+		DisplayName: Unicorn Poacher
+		Tooltip: ""
+	}
+
+	Heartache: {
+		DisplayName: Heartache
+		Tooltip: ""
+	}
+
+	DeadSoldiersRifle: {
+		DisplayName: Dead Soldier's Rifle
+		Tooltip: ""
+	}
+
+	SandyScorpion: {
+		DisplayName: Sandy Scorpion
+		Tooltip: ""
+	}
+
+	SandyShocks: {
+		DisplayName: Sandy Shocks
+		Tooltip: ""
+	}
+
+	BarbecueBlade: {
+		DisplayName: Barbecue Blade
+		Tooltip: ""
+	}
+
+	VenomThrower: {
+		DisplayName: VenomThrower
+		Tooltip: ""
+	}
+
+	Pyrocannon: {
+		DisplayName: Pyrocannon
+		Tooltip: ""
+	}
+
+	MapleSyrupBurner: {
+		Tooltip: ""
+		DisplayName: L'bruleur d'sirop d'erable
+	}
+
+	HephaestusCannon: {
+		Tooltip: ""
+		DisplayName: Hephaestus Cannon
+	}
+
+	RednecksRustBucket: {
+		Tooltip: ""
+		DisplayName: Redneck's Rust Bucket
+	}
+
+	RednecksRevenge: {
+		Tooltip: ""
+		DisplayName: Redneck's Revenge
+	}
+
+	TheAshesOfCalamity: {
+		DisplayName: The Ashes Of Calamity
+		Tooltip: ""
+	}
+
+	IronFist: {
+		DisplayName: Iron Fist
+		Tooltip: ""
+	}
+
+	DeliriantDagger: {
+		Tooltip: ""
+		DisplayName: Deliriant Dagger
+	}
+
+	ThePeoplesPitchfork: {
+		Tooltip: ""
+		DisplayName: The People's Pitchfork
+	}
+
+	DvdLogo: {
+		DisplayName: DVD Logo
+		Tooltip: ""
+	}
+
+	Edward40Hands: {
+		Tooltip: ""
+		DisplayName: Edward 40 Hands
+	}
+
+	BillionaireBiter: {
+		DisplayName: Billionaire Biter
+		Tooltip: ""
+	}
+
+	OrcaMask: {
+		SetBonus: Mods.gunrightsmod.Items.OrcaMask.SetBonus
+		DisplayName: Orca Mask
+		Tooltip: ""
+	}
+
+	OrcaSuit: {
+		SetBonus: Mods.gunrightsmod.Items.OrcaSuit.SetBonus
+		DisplayName: Orca Suit
+		Tooltip: ""
+	}
+
+	OrcaTail: {
+		SetBonus: Mods.gunrightsmod.Items.OrcaTail.SetBonus
+		DisplayName: Orca Tail
+		Tooltip: ""
+	}
+
+	MaximGelgun: {
+		DisplayName: Maxim Gelgun
+		Tooltip: ""
+	}
+
+	FlinxsFurblade: {
+		DisplayName: Flinx's Furblade
+		Tooltip: ""
+	}
+
+	EyeRifle: {
+		DisplayName: Eye Rifle
+		Tooltip: ""
+	}
+
+	ScreamingSoyjak: {
+		DisplayName: Screaming Soyjak
+		Tooltip: ""
+	}
+
+	WandOfPooping: {
+		Tooltip: ""
+		DisplayName: Wand Of Pooping
+	}
+
+	ShitAndPissWand: {
+		Tooltip: ""
+		DisplayName: Shit And Piss Wand
+	}
+
+	ShitPissAndCumWand: {
+		DisplayName: Shit,Piss and Cum Wand
+		Tooltip: ""
+	}
+
+	Septicemia: {
+		DisplayName: Septicemia
+		Tooltip: ""
+	}
+
+	AmericanFootball: {
+		DisplayName: American Football
+		Tooltip: ""
+	}
+
+	ChainThunderblade: {
+		Tooltip: ""
+		DisplayName: Chain Thunderblade
+	}
+
+	WaterflameSword: {
+		Tooltip: ""
+		DisplayName: Waterflame Sword
+	}
+
+	TheIcebreaker: {
+		DisplayName: The Icebreaker
+		Tooltip: ""
+	}
+
+	VerminImpaler: {
+		DisplayName: Vermin Impaler
+		Tooltip: ""
+	}
+
+	Repentance: {
+		DisplayName: Repentance
+		Tooltip: ""
+	}
+
+	VerdantClaymore: {
+		DisplayName: Verdant Claymore
+		Tooltip: ""
+	}
+
+	TarriffStamper: {
+		DisplayName: Tariff Stamper
+		Tooltip: ""
+	}
+
+	KetamineInjection: {
+		DisplayName: Ketamine Injection
+		Tooltip: ""
+	}
+
+	Needler: {
+		DisplayName: Needler
+		Tooltip: ""
+	}
+
+	TheMagnum: {
+		DisplayName: The Magnum
+		Tooltip: ""
+	}
+
+	BinaryRifle: {
+		DisplayName: Binary Rifle
+		Tooltip: ""
+	}
+
+	RivetGun: {
+		DisplayName: Rivet Gun
+		Tooltip: ""
+	}
+
+	ArrowRaider: {
+		DisplayName: Arrow Raider
+		Tooltip: ""
+	}
+
+	CyberneticGunParts: {
+		DisplayName: Cybernetic Gun Parts
+		Tooltip: ""
+	}
+
+	MoonBow: {
+		DisplayName: Moon Bow
+		Tooltip: ""
+	}
+
+	MoonBowCursed: {
+		DisplayName: Moon Bow
+		Tooltip: ""
+	}
+
+	BugBuzz: {
+		Tooltip: ""
+		DisplayName: Bug Buzz
+	}
+
+	EyePoker: {
+		DisplayName: Eye Poker
+		Tooltip: ""
+	}
+
+	DragonBreathShell: {
+		DisplayName: Dragon's Breath Shell
+		Tooltip: ""
+	}
+
+	ImpulseBow: {
+		DisplayName: Impulse Bow
+		Tooltip: ""
+	}
+
+	EldritchArrow: {
+		DisplayName: Eldritch Arrow
+		Tooltip: ""
+	}
+
+	TheComet: {
+		DisplayName: The Comet
+		Tooltip: ""
+	}
+
+	RadiologicalRavager: {
+		DisplayName: Radiological Ravager
+		Tooltip: ""
+	}
+
+	MandibleStaff: {
+		DisplayName: Mandible Staff
+		Tooltip: ""
+	}
+
+	ObsidianGreatbow: {
+		DisplayName: Obsidian Greatbow
+		Tooltip: ""
+	}
+
+	UraniumBrick: {
+		Tooltip: ""
+		DisplayName: Uranium Brick
+	}
+
+	PlutoniumBrick: {
+		Tooltip: ""
+		DisplayName: Plutonium Brick
+	}
+
+	FoundersDrumroll: {
+		Tooltip: ""
+		DisplayName: Founder's Drumroll
+	}
+
+	AstatineBrick: {
+		Tooltip: ""
+		DisplayName: Astatine Brick
+	}
+
+	EcologicalOvershot: {
+		Tooltip: ""
+		DisplayName: Ecological Overshot
+	}
+
+	Bullshit1: {
+		Tooltip: Omni Damage- Benefits from ALL classes
+		DisplayName: Bull$#!7 Mk.I
+	}
+
+	Bullshit2: {
+		Tooltip: Omni Damage- Benefits from ALL classes
+		DisplayName: Bull$#!7 Mk.II
+	}
+
+	Bullshit3: {
+		Tooltip: Omni Damage- Benefits from ALL classes
+		DisplayName: Bull$#!7 Mk.III
+	}
+
+	Bullshit4: {
+		Tooltip: Omni Damage- Benefits from ALL classes
+		DisplayName: Bull$#!7 Mk.IV
+	}
+
+	Autovaxxer: {
+		DisplayName: Autovaxxer
+		Tooltip: ""
+	}
+
+	Macuahuitl: {
+		Tooltip: ""
+		DisplayName: Macuahuitl
+	}
+
+	CrudeOil: {
+		Tooltip: ""
+		DisplayName: Crude Oil
+	}
+
+	PridePartyHat: {
+		Tooltip: ""
+		DisplayName: Pride Party Hat
+	}
+
+	TheOilBaron: {
+		DisplayName: The Oil Baron
+		Tooltip: ""
+	}
+
+	RefinedOil: {
+		DisplayName: Refined Oil
+		Tooltip: ""
+	}
+
+	FlaskOfOil: {
+		DisplayName: Flask Of Oil
+		Tooltip: ""
+	}
+
+	CollarOfTheDamned: {
+		DisplayName: Collar Of The Damned
+		Tooltip: ""
+	}
+
+	BottledOil: {
+		DisplayName: Bottled Oil
+		Tooltip: ""
+	}
+
+	OilBlock: {
+		DisplayName: Oil Block
+		Tooltip: ""
+	}
+
+	GoldMultiaxe: {
+		DisplayName: Gold Multiaxe
+		Tooltip: ""
+	}
+
+	PlatinumMultiaxe: {
+		DisplayName: Platinum Multiaxe
+		Tooltip: ""
+	}
+
+	KingslayerHelmet: {
+		SetBonus: Slightly increases all stats when a boss is alive
+		DisplayName: Kingslayer Helmet
+		Tooltip: ""
+	}
+
+	KingslayerBreastplate: {
+		SetBonus: Slightly increases all stats when a boss is alive
+		DisplayName: Kingslayer Breastplate
+		Tooltip: ""
+	}
+
+	KingslayerGreaves: {
+		SetBonus: Slightly increases all stats when a boss is alive
+		DisplayName: Kingslayer Greaves
+		Tooltip: ""
+	}
+
+	SawedOffSparkplug: {
+		Tooltip: ""
+		DisplayName: Sawed-Off Sparkplug
+	}
+
+	DeathBreathShell: {
+		DisplayName: Death's Breath Shell
+		Tooltip: ""
+	}
+
+	MidnightAfterburner: {
+		DisplayName: Midnight Afterburner
+		Tooltip: ""
+	}
+
+	Shadowflame: {
+		DisplayName: Shadowflame
+		Tooltip: ""
+	}
+
+	ShadowflameArrow: {
+		DisplayName: Shadowflame Arrow
+		Tooltip: ""
+	}
+
+	KingslayerScepter: {
+		Tooltip: ""
+		DisplayName: Kingslayer Scepter
+	}
+
+	TheImperialBoomerangs: {
+		Tooltip: ""
+		DisplayName: The Imperial Boomerangs
+	}
+
+	KingslayerMultiaxe: {
+		Tooltip: ""
+		DisplayName: Kingslayer Multiaxe
+	}
+
+	KingslayerBar: {
+		Tooltip: ""
+		DisplayName: Kingslayer Bar
+	}
+
+	KingslayerWarBow: {
+		Tooltip: ""
+		DisplayName: Kingslayer War Bow
+	}
+
+	KingslayerCrown: {
+		Tooltip: ""
+		DisplayName: Kingslayer Crown
+	}
+
+	FerrousThornSmooth: {
+		DisplayName: Ferrous Thorn (Smooth)
+		Tooltip: ""
+	}
+
+	FerrousThornSpiky: {
+		DisplayName: Ferrous Thorn (Spiky)
+		Tooltip: ""
+	}
+
+	FossilFuelChestplate: {
+		SetBonus: Increased flight time and aerial movement
+		DisplayName: Fossil Fuel Chestplate
+		Tooltip: ""
+	}
+
+	FossilFuelHelmet: {
+		SetBonus: Increased flight time and aerial movement
+		DisplayName: Fossil Fuel Helmet
+		Tooltip: ""
+	}
+
+	FossilFuelPants: {
+		SetBonus: Increased flight time and aerial movement
+		DisplayName: Fossil Fuel Pants
+		Tooltip: ""
+	}
+
+	SlimeMineStaff: {
+		DisplayName: Slime Mines Staff
+		Tooltip: Summons an explosive slime mine on your mouse position
+	}
+
+	PondsWings: {
+		DisplayName: Pond's Wings
+		Tooltip: ""
+	}
+
+	KingslayerSword: {
+		DisplayName: Kingslayer Sword
+		Tooltip: ""
+	}
+
+	KingslayerBullet: {
+		DisplayName: Kingslayer Bullet
+		Tooltip: ""
+	}
+
+	SolarRayRifle: {
+		DisplayName: Solar Ray Rifle
+		Tooltip: ""
+	}
+
+	Casanova: {
+		Tooltip: ""
+		DisplayName: Casanova
+	}
+
+	IcicleMinigun: {
+		Tooltip: ""
+		DisplayName: Icicle Minigun
+	}
+
+	Bundlebuss: {
+		Tooltip: ""
+		DisplayName: Bundlebuss
+	}
+
+	PondsSniper: {
+		DisplayName: Pond's Sniper
+		Tooltip: ""
+	}
+
+	KingslayerSniper: {
+		DisplayName: Kingslayer Sniper Rifle
+		Tooltip: ""
+	}
+
+	ToxicBullet: {
+		DisplayName: Toxic Bullet
+		Tooltip: ""
+	}
+
+	FidgetThrower: {
+		DisplayName: Fidget Thrower
+		Tooltip: ""
+	}
+
+	FidgetThrower2: {
+		DisplayName: Fidget Thrower Mk.II
+		Tooltip: ""
+	}
+
+	FidgetThrower3: {
+		DisplayName: Fidget Thrower Mk.III
+		Tooltip: ""
+	}
+
+	RoyalGuardianSword: {
+		DisplayName: Royal Guardian Sword
+		Tooltip: ""
+	}
+
+	BlackMamba: {
+		DisplayName: Black Mamba
+		Tooltip: ""
+	}
+
+	Sunrise: {
+		DisplayName: Sunrise
+		Tooltip: ""
+	}
+
+	LuminiteDart: {
+		DisplayName: Luminite Dart
+		Tooltip: ""
+	}
+
+	CaribousCatastrophe: {
+		DisplayName: Caribou's Catastrophe
+		Tooltip: ""
+	}
+
+	PhotonShotgun: {
+		DisplayName: Photon Shotgun
+		Tooltip: ""
+	}
+
+	IronValiant: {
+		Tooltip: ""
+		DisplayName: Iron Valiant
+	}
+
+	CausticCarrot: {
+		DisplayName: Caustic Carrot
+		Tooltip: ""
+	}
+
+	LycopiteBow: {
+		DisplayName: Lycopite Bow
+		Tooltip: ""
+	}
+
+	LycopiteOre: {
+		DisplayName: Lycopite Ore
+		Tooltip: ""
+	}
+
+	LycopiteBar: {
+		DisplayName: Lycopite Bar
+		Tooltip: ""
+	}
+
+	LycopitePickaxe: {
+		DisplayName: Lycopite Pickaxe
+		Tooltip: ""
+	}
+
+	BadTrip: {
+		DisplayName: Bad Trip
+		Tooltip: ""
+	}
+
+	TrippyTransmutationStaff: {
+		DisplayName: Trippy Transmutation Staff
+		Tooltip: ""
+	}
+
+	OilMonsterStaff: {
+		DisplayName: Mini Oil Monster Staff
+		Tooltip: ""
+	}
+
+	PolymerSlimeStaff: {
+		DisplayName: Polymer Slime Staff
+		Tooltip: ""
+	}
+
+	SporeSower: {
+		DisplayName: Spore Sower
+		Tooltip: ""
+	}
+
+	LycopiteChestplate: {
+		SetBonus: 15% increased max life
+		DisplayName: Lycopite Chestplate
+		Tooltip: ""
+	}
+
+	LycopiteFedora: {
+		SetBonus: 15% increased max life
+		DisplayName: Lycopite Fedora
+		Tooltip: ""
+	}
+
+	LycopiteLeggings: {
+		SetBonus: 15% increased max life
+		DisplayName: Lycopite Leggings
+		Tooltip: ""
+	}
+
+	LycopiteMask: {
+		SetBonus: 15% increased max life
+		DisplayName: Lycopite Mask
+		Tooltip: ""
+	}
+
+	LycopiteHelmet: {
+		SetBonus: 15% increased max life
+		DisplayName: Lycopite Helmet
+		Tooltip: ""
+	}
+
+	GunWithRoses: {
+		DisplayName: Gun With Roses
+		Tooltip: ""
+	}
+
+	SpaceTrasher: {
+		DisplayName: Space Trasher
+		Tooltip: ""
+	}
+
+	GunOfRoses: {
+		DisplayName: Gun of Roses
+		Tooltip: ""
+	}
+
+	CIAJournalismAward: {
+		Tooltip: ""
+		DisplayName: CIA Award in Journalism
+	}
+
+	AstatineGlass: {
+		DisplayName: Astatine Glass
+		Tooltip: ""
+	}
+
+	PlutoniumGlass: {
+		DisplayName: Plutonium Glass
+		Tooltip: ""
+	}
+
+	UraniumGlass: {
+		DisplayName: Uranium Glass
+		Tooltip: ""
+	}
+
+	LycopiteBrick: {
+		DisplayName: Lycopite Brick
+		Tooltip: ""
+	}
+
+	Tomatonator: {
+		DisplayName: Tomatonator
+		Tooltip: ""
+	}
+
+	BoggsGlove: {
+		DisplayName: Boggs' Glove
+		Tooltip: ""
+	}
+
+	BoxOfRandomBullshit: {
+		DisplayName: Box Of Random Bullshit
+		Tooltip: Omni Damage- Benefits from ALL classes
+	}
+
+	LycopiteHamaxe: {
+		DisplayName: Lycopite Hamaxe
+		Tooltip: ""
+	}
+
+	PocketBeetles: {
+		DisplayName: Pocket Beetles
+		Tooltip: ""
+	}
+
+	JevilishScythe: {
+		DisplayName: Devilsknife
+		Tooltip: Omni Damage- Benefits from ALL classes
+	}
+
+	FauxFrozenKey: {
+		DisplayName: Faux Frozen Key
+		Tooltip: ""
+	}
+
+	SkeletonKey: {
+		DisplayName: Skeleton Key
+		Tooltip: ""
+	}
+
+	FlaskOfShadowflame: {
+		DisplayName: Flask Of Shadowflame
+		Tooltip: ""
+	}
+
+	RiverGun: {
+		DisplayName: River Gun
+		Tooltip: ""
+	}
+
+	RiverMachinegun: {
+		DisplayName: River Machinegun
+		Tooltip: ""
+	}
+
+	ManeAx: {
+		DisplayName: Mane Ax
+		Tooltip: Omni Damage- Benefits from ALL classes
+	}
+
+	ArcaneDartgun: {
+		DisplayName: Arcane Dartgun
+		Tooltip: ""
+	}
+
+	LycopiteBullet: {
+		Tooltip: ""
+		DisplayName: Lycopite Bullet
+	}
+
+	JusticeAxe: {
+		DisplayName: Justice Axe
+		Tooltip: Omni Damage- Benefits from ALL classes
+	}
+
+	AmalgamatedEmblem: {
+		DisplayName: Amalgamated Emblem
+		Tooltip: ""
+	}
+
+	AmalgamatedFragment: {
+		DisplayName: Amalgamated Fragment
+		Tooltip: ""
+	}
+
+	DoombringerSigil: {
+		DisplayName: Doombringer Sigil
+		Tooltip: ""
+	}
+
+	TheSpamCannon: {
+		DisplayName: The Spam Cannon
+		Tooltip: Omni Damage- Benefits from ALL classes
+	}
+
+	GoldenAK: {
+		DisplayName: Golden AK
+		Tooltip: ""
+	}
+
+	OtherworldlySixPack: {
+		DisplayName: Otherworldly Six Pack
+		Tooltip: ""
+	}
+
+	RainbowRifle: {
+		DisplayName: Rainbow Rifle
+		Tooltip: ""
+	}
+
+	ZazaPipegun: {
+		Tooltip: ""
+		DisplayName: Zaza Pipegun
+	}
+
+	Blackshard: {
+		Tooltip: Omni Damage- Benefits from ALL classes
+		DisplayName: Blackshard
+	}
+
+	Bergentrucking: {
+		DisplayName: Bergentrucking
+		Tooltip: ""
+	}
+
+	LoreAccurateBlackshard: {
+		Tooltip: ""
+		DisplayName: Lore Accurate Blackshard
+	}
+
+	FissionDrive: {
+		DisplayName: Fission Drive
+		Tooltip: ""
+	}
+
+	MG42: {
+		DisplayName: MG42
+		Tooltip: ""
+	}
+
+	ShroomiteMissile: {
+		DisplayName: Shroomite Missile
+		Tooltip: ""
+	}
+
+	YelmutsHelmet: {
+		SetBonus: +1 minion slot and defense
+		DisplayName: Yelmut's Helmet
+		Tooltip: ""
+	}
+
+	IED: {
+		DisplayName: Improvised Explosive Device
+		Tooltip: ""
+	}
+
+	MagicCue: {
+		Tooltip: ""
+		DisplayName: Magic Cue
+	}
+
+	WeedLeaves: {
+		Tooltip: ""
+		DisplayName: Weed Leaves
+	}
+
+	Zablade: {
+		DisplayName: Zablade
+		Tooltip: ""
+	}
+
+	ZazaDart: {
+		DisplayName: Zaza Dart
+		Tooltip: ""
+	}
+
+	MagicBong: {
+		Tooltip: ""
+		DisplayName: Magic Bong
+	}
+
+	VileGreatstaff: {
+		Tooltip: ""
+		DisplayName: Vile Greatstaff
+	}
+
+	ViciousGreatstaff: {
+		DisplayName: Vicious Greatstaff
+		Tooltip: ""
+	}
+
+	WeedShirt: {
+		Tooltip: ""
+		DisplayName: Weed Shirt
+		SetBonus: +1.5 hp/s life regen
+	}
+
+	WeedPants: {
+		Tooltip: ""
+		DisplayName: Weed Pants
+		SetBonus: +1.5 hp/s life regen
+	}
+
+	WeedHeadgear: {
+		Tooltip: ""
+		DisplayName: Weed Headgear
+		SetBonus: +1.5 hp/s life regen
+	}
+
+	DirtBullet: {
+		DisplayName: Dirt Bullet
+		Tooltip: ""
+	}
+
+	UraniumTorch: {
+		Tooltip: ""
+		DisplayName: Uranium Torch
+	}
+
+	PlutoniumTorch: {
+		DisplayName: Plutonium Torch
+		Tooltip: ""
+	}
+
+	AstatineTorch: {
+		Tooltip: ""
+		DisplayName: Astatine Torch
+	}
+}
+
+Projectiles: {
+	TrueBullet.DisplayName: True Bullet
+	ShitBallProjectile.DisplayName: Shit Ball Projectile
+	ProtoBeam.DisplayName: Proto Beam
+	BushPlane.DisplayName: Bush Plane
+	PissMissileProj.DisplayName: Piss Missile Proj
+	Rocketneg1proj.DisplayName: Rocket -1
+	AgentGreenProj.DisplayName: Agent Green Rocket
+	BeetleRoundProjectile.DisplayName: Beetle Round Projectile
+	TedPackage.DisplayName: Ted Package
+	AshenWeed.DisplayName: Ashen Weed
+	Hurricane.DisplayName: Hurricane
+	ChargeLaser.DisplayName: Charge Laser
+	SisyphusBoulder.DisplayName: Sisyphus Boulder
+	KingslayerRocket.DisplayName: Spirit Slayer Rocket
+	CiaRocket.DisplayName: CIA Rocket
+	ProtoLaser.DisplayName: Proto Laser
+	fiveproj.DisplayName: .556 Nato Round
+	ScrapMetal.DisplayName: Scrap Metal
+	ChromaticaLaser.DisplayName: Chromatica Laser
+	Money.DisplayName: Money
+	TerraRound.DisplayName: Terra Round
+	GreaseBomb.DisplayName: Grease Bomb
+	Napalm.DisplayName: Napalm
+	YeetKnife.DisplayName: Yeet Knife
+	RainbowBeam.DisplayName: Rainbow Beam
+	Stingeer.DisplayName: Stinger
+	Censored.DisplayName: Censored
+	ChloroShit.DisplayName: Chloro Shit
+	Carbon02.DisplayName: Carbon02
+	DracoRound.DisplayName: Draco Round
+	BarbBullet.DisplayName: Barb Bullet
+	Mixel.DisplayName: Mixel
+	MinieProj.DisplayName: Minie Ball
+	AMRRound.DisplayName: AMR Round
+	MushyPeas.DisplayName: Mushy Peas
+	PoopArrowProj.DisplayName: Poop Arrow
+	Coom.DisplayName: Cum
+	FranceYoyo.DisplayName: France Yoyo
+	ShitSpray.DisplayName: Shit Spray
+	Bitcoin.DisplayName: Bitcoin
+	GayFrogChemicals.DisplayName: Gay Frog Chemicals
+	SkibidiHead.DisplayName: Skibidi Head
+	TerraSkibidiHead.DisplayName: Terra Skibidi Head
+	BigBall.DisplayName: Big Ball
+	ParticleBeam.DisplayName: Particle Beam
+	UnholyShit.DisplayName: Unholy Shit
+	UltraArrowProj.DisplayName: Ultrabright Arrow
+	CryoBullet.DisplayName: Cryo Bullet
+	BeadsNDick.DisplayName: Rectum's Requiem
+	SockPoop.DisplayName: Sock Poop
+	SandPocket.DisplayName: Pocket Sand
+	CrimPocket.DisplayName: Pocket Crimsand
+	EbonPocket.DisplayName: Pocket Ebonsand
+	PearlPocket.DisplayName: Pocket Pearlsand
+	OrbitalDeathRay.DisplayName: Orbital Death Ray
+	OrbitTracer.DisplayName: Orbit Tracer
+	RedBloon.DisplayName: Red Bloon
+	RainbowBloon.DisplayName: Rainbow Bloon
+	Sausage.DisplayName: Sausage
+	FakeRocket.DisplayName: Fake Rocket
+	UsaFlag.DisplayName: Usa Flag
+	BowlingBall.DisplayName: Bowling Ball
+	CrackedNut.DisplayName: Cracked Nut
+	CeramicBloon.DisplayName: Ceramic Bloon
+	CeramicScrap.DisplayName: Ceramic Scrap
+	TheFuckingMoon.DisplayName: The Fucking Moon
+	GreaseSplatter.DisplayName: Grease Splatter
+	Crater.DisplayName: Crater
+	CopperShort.DisplayName: Copper Shortsword
+	DaeRound.DisplayName: Daedalus Round
+	SuperCeramicBloon.DisplayName: Super Ceramic Bloon
+	BoomSmall.DisplayName: Boom Small
+	Dynarang.DisplayName: BOOM-erang
+	Salt.DisplayName: Salt
+	SaltGrav.DisplayName: Salt
+	PureSaltShot.DisplayName: Pure Salt Shot
+	LostSoul.DisplayName: Lost Soul
+	SpikyLego.DisplayName: Spiky Lego
+	GagGift.DisplayName: Gag Gift
+	BigBerthaProj.DisplayName: Big Bertha
+	TinShort.DisplayName: Tin Short
+	UraniumSwing.DisplayName: Uranium Sword
+	CeramArrow.DisplayName: Ceramic Arrow
+	CeramNop.DisplayName: Ceramic Scrap
+	RadArrow.DisplayName: Rad Arrow
+	RadArrowMini.DisplayName: Rad Arrow Mini
+	RadShotMini.DisplayName: Rad Shot Mini
+	RadShot.DisplayName: Rad Shot
+	PlasmaLaser.DisplayName: Plasma Blob
+	KevlarWhipProj.DisplayName: Kevlar Whip
+	FriendlyPlasma.DisplayName: Friendly Plasma
+	A5G.DisplayName: 5G
+	MerFlare.DisplayName: Merica Flare
+	HammerNSickle.DisplayName: Hammer N Sickle
+	BigCannonBall.DisplayName: Big Cannon Ball
+	DracoDrop.DisplayName: Draco Drop
+	JfkBlood.DisplayName: Jfk Blood
+	JfkBullet.DisplayName: Jfk Bullet
+	Bad5g.DisplayName: 5g
+	PlutoArrow.DisplayName: Plutonium Arrow
+	PlutoArrowMini.DisplayName: Plutonium Arrow Mini
+	PlutoArrowMinier.DisplayName: Plutonium Arrow Mini-er
+	PlutoniumSwing.DisplayName: Plutonium Swing
+	PlutoShotMini.DisplayName: Plutonium Shot Mini
+	PlutoShot.DisplayName: Plutonium Shot
+	PlutoParticle.DisplayName: Plutonium Particle
+	ElephantYoyo.DisplayName: Elephant's Throw
+	Xray.DisplayName: Xray
+	PlutoWhip.DisplayName: Plutonium Whip
+	RadBoomerang.DisplayName: Rad Boomerang
+	RadParticle.DisplayName: Rad Particle
+	AstaArrowProj.DisplayName: Astatine Arrow
+	PlutoBlob.DisplayName: Plutonium Blob
+	AstaBlob.DisplayName: Astatine Blob
+	AstaBoom.DisplayName: Astatine Boom
+	AstatineSpear.DisplayName: Astatine Spear
+	GeigerRocket.DisplayName: Geiger Rocket
+	MinieMag.DisplayName: Minigun Shot
+	AstatineBullet.DisplayName: Astatine Bullet
+	SublimRay.DisplayName: Sublimination Ray
+	BowBoltProj.DisplayName: Crossbow Bolt
+	PurifiedBoltProj.DisplayName: Purified Bolt
+	AstaWhip.DisplayName: Astatine Whip
+	AstaBoomBig.DisplayName: Big Boom
+	SublimRay2.DisplayName: Sublimination Ray
+	AstaRocketProj.DisplayName: Dirty Rocket III
+	PlutoRocket.DisplayName: Dirty Rocket II
+	UraniumRocket.DisplayName: Dirty Rocket I
+	FakeRocket2.DisplayName: Fake Rocket
+	UsaFlag2.DisplayName: Usa Flag
+	SodiumBolt.DisplayName: Sodium Bolt
+	Xray2.DisplayName: Xray
+	BirdBullet.DisplayName: .50 Action Express
+	AstaGlaive.DisplayName: Astatine Glaive
+	CeramMag.DisplayName: Magic Ceramic
+	PurifiedSpear.DisplayName: Purified Spear
+	AstaBoomDelayed.DisplayName: Astatine Boom Delayed
+	AstaFission.DisplayName: Astatine Fission Ray
+	SaltMage.DisplayName: Magic Salt
+	SaltMelee.DisplayName: Salt
+	SaltYoyo.DisplayName: Salt Yoyo
+	GeigerBoom.DisplayName: Geiger Boom
+	ThumbtackProj.DisplayName: Thumbtack Dart
+	BombBoom.DisplayName: Bomb Boom
+	CeramDart.DisplayName: Ceramic-Tipped Dart
+	NapalmDart.DisplayName: Napalm Dart
+	NapalmRanged.DisplayName: Napalm Ranged
+	WaterDart.DisplayName: Water Dart
+	ChloroDart.DisplayName: Chloro Dart
+	ChloroDartMini.DisplayName: Chloro Dart Mini
+	FrostBoom.DisplayName: Frost Boom
+	FrostChunk.DisplayName: Frost Chunk
+	FrostDart.DisplayName: Frost Dart
+	DirgeFlame.DisplayName: Dirge Flame
+	CactusSpike.DisplayName: Cactus Spike
+	LuminiteDart.DisplayName: Luminite Dart
+	FissileGreen.DisplayName: Fissile Dart Green
+	FissilePurple.DisplayName: Fissile Dart Purple
+	FissileRed.DisplayName: Fissile Dart Red
+	FissileSpawn.DisplayName: Fissile
+	FishStick.DisplayName: Fish Stick
+	FlippingBottleProj.DisplayName: Flipping Bottle
+	CactusSpawn.DisplayName: Cactus Spawn
+	CobaltBolt.DisplayName: Cobalt Bolt
+	PalladiumBolt.DisplayName: Palladium Bolt
+	MythrilBolt.DisplayName: Mythril Bolt
+	AdamantiteBolt.DisplayName: Adamantite Bolt
+	OrichalcumBolt.DisplayName: Orichalcum Bolt
+	TitaniumBolt.DisplayName: Titanium Bolt
+	PulseShot.DisplayName: Pulse Shot
+	LaserBlast.DisplayName: Laser Blast
+	PlasmaBlast.DisplayName: Plasma Blast
+	AvalancheBoulder.DisplayName: Avalanche Boulder
+	WhippetProj.DisplayName: Whippet Whip
+	SaltSwing.DisplayName: Salt Swing
+	SaltMelee2.DisplayName: Salt Melee2
+	RuneShot.DisplayName: Rune Shot
+	ZazaSmoke.DisplayName: Zaza Smoke
+	DevilFlame.DisplayName: Devil Flame
+	Pentagram.DisplayName: Pentagram
+	CrimSpark.DisplayName: Crim Spark
+	CorruptSpark.DisplayName: Corrupt Spark
+	HallowSpark.DisplayName: Hallow Spark
+	VenomFlame.DisplayName: Venom Tri Flame
+	TriFlame2.DisplayName: Tri Flame
+	TriFlame1.DisplayName: Tri Flame
+	UnicornHornProj.DisplayName: Unicorn Horn Proj
+	HeartShot.DisplayName: Heart Shot
+	PoisonBullet.DisplayName: Poison Bullet
+	SandShot.DisplayName: Sand Shot
+	ElectrifiedSand.DisplayName: Electrified Sand
+	Sausage2.DisplayName: Sausage
+	GreaseSplatter2.DisplayName: Grease Splatter
+	HamProj.DisplayName: Ham
+	SteakProj.DisplayName: Steak
+	GreaseBomb2.DisplayName: Grease Bomb
+	HarpoonProj.DisplayName: Harpoon
+	PyroBall.DisplayName: Pyro Ball
+	PyroFlame.DisplayName: Pyro Flame
+	SyrupFlame.DisplayName: Syrup Flame
+	HephBall.DisplayName: Hephaestus Ball
+	HephFlame.DisplayName: Hephaestus Flame
+	VenomFlame2.DisplayName: Venom Flame
+	DemonBall.DisplayName: Demon Ball
+	DemonFlame.DisplayName: Demon Flame
+	SaberProj.DisplayName: Saber Of the Europoor
+	IronWave.DisplayName: Iron Wave
+	DaggerProj.DisplayName: Deliriant Dagger
+	PitchforkProj.DisplayName: People's Pitchfork
+	DvdBlue.DisplayName: Dvd Logo Blue
+	DvdGreen.DisplayName: Dvd Logo Green
+	DvdRed.DisplayName: Dvd Logo Red
+	DvdYellow.DisplayName: Dvd Logo Yellow
+	BeerYeet.DisplayName: Beer
+	OrcaTooth.DisplayName: Orca Tooth
+	GelShot.DisplayName: Gel Shot
+	FurBall.DisplayName: Furball
+	EyeShot.DisplayName: Eye Shot
+	Soundwave.DisplayName: Soyjack Soundwave
+	PoopSpark.DisplayName: Poop Spark
+	PooShot.DisplayName: Poo Shot
+	SpermProj.DisplayName: Sperm
+	SpermRange.DisplayName: Sperm
+	AmericanFootballProj.DisplayName: American Football Proj
+	ThunderSwing.DisplayName: Thunder Swing
+	ChainThunder.DisplayName: Chain Thunder
+	Waterflame.DisplayName: Waterflame
+	Icicle.DisplayName: Icicle
+	VenomSpear.DisplayName: Vermin Impaler
+	MoltenSpear.DisplayName: Repentance
+	NapalmBad.DisplayName: Napalm
+	VerdantProj.DisplayName: Verdant Claymore
+	Needle.DisplayName: Needle
+	MagnumShot.DisplayName: Magnum Shot
+	BinaryLaser.DisplayName: Binary Laser
+	BugWave.DisplayName: Bug Wave
+	EyeSpear.DisplayName: Eye Spear
+	MerFlare2.DisplayName: Mer Flare
+	DragonBreath.DisplayName: Dragon Breath
+	DragonSpawn.DisplayName: Dragon Spawn
+	DragonBreath2.DisplayName: Dragon Breath
+	DragonBreath3.DisplayName: Dragon Breath
+	DragonBreath4.DisplayName: Dragon Breath
+	EldritchProj.DisplayName: Eldritch Proj
+	Meteor.DisplayName: Meteor
+	MeteorBoom.DisplayName: Meteor Boom
+	AstaBoom2.DisplayName: Astatine Boom
+	AstaParticle.DisplayName: Astatine Particle
+	AstaSwing.DisplayName: Astatine Swing
+	MandibleProj.DisplayName: Spinning Mandible Proj
+	ObsidianArrow.DisplayName: Obsidian Arrow
+	Bloodfish.DisplayName: Bloodfish
+	PearlProj.DisplayName: Pearl Proj
+	GalaxyShard.DisplayName: Galaxy Shard
+	GalaxyProj.DisplayName: Galaxy Proj
+	EmblemProj.DisplayName: Emblem Proj
+	EmblemBoom.DisplayName: Emblem Boom
+	GalaxyBoom.DisplayName: Galaxy Boom
+	MoonProjFunny.DisplayName: Moon Proj
+	MoonBoom.DisplayName: Moon Boom
+	GalaxyProj2.DisplayName: Galaxy Proj
+	EmblemProj2.DisplayName: Emblem Proj
+	VaxNanobot.DisplayName: Vax Nanobot
+	VaxNeedle.DisplayName: Vax Needle
+	ObsidianScrap.DisplayName: Obsidian Scrap
+	MacuaSwing.DisplayName: Macuahuitl
+	OilSwing.DisplayName: The Oil Baron
+	OilBall.DisplayName: Oil Ball
+	OilBoom.DisplayName: Oil Boom
+	OilBottleProj.DisplayName: Oil Bottle Proj
+	OilBottleSplash.DisplayName: Oil Bottle Splash
+	SpinningDiamond.DisplayName: Spinning Diamond
+	SpinningRuby.DisplayName: Spinning Ruby
+	OilBallRanged.DisplayName: Oil Ball Large
+	DragonBreath2Shadow.DisplayName: Death Breath
+	DragonBreath3Shadow.DisplayName: Death Breath
+	DragonBreath4Shadow.DisplayName: Death Breath
+	DragonBreathShadow.DisplayName: Death Breath
+	DragonSpawnShadow.DisplayName: Death Breath
+	KingHammer.DisplayName: Kingslayer Hammer
+	KingBoomerang.DisplayName: Imperial Boomerang
+	GelShotMini.DisplayName: Gel Arrow
+	FerroWhipSmooth.DisplayName: Ferro Whip Smooth
+	FerroWhipSpiky.DisplayName: Ferro Whip Spiky
+	SlimeMine.DisplayName: Slime Mine
+	PiercingLight.DisplayName: Piercing Light
+	KingShot.DisplayName: King Shot
+	SolarRay.DisplayName: Solar Ray
+	CasaShot.DisplayName: Venom Petal
+	IcicleRanged.DisplayName: Icicle
+	MusketBallSpinny.DisplayName: Musket Ball Spinny
+	FidgetSpinner1.DisplayName: Fidget Spinner
+	FidgetSpinner2.DisplayName: Fidget Spinner
+	FidgetSpinner3.DisplayName: Fidget Spinner
+	RoyalSwing.DisplayName: Royal Guardian Sword
+	MambaShot.DisplayName: Red Venom Petal
+	LunarDart.DisplayName: Lunar Dart
+	SunDart.DisplayName: Sun Dart
+	Photon.DisplayName: Photon
+	PhotonSpawn.DisplayName: Photon Spawn
+	PlasmoidFriendly.DisplayName: Plasmoid Friendly
+	NuhUh.DisplayName: Nuh Uh
+	ValiantYoyo.DisplayName: Valiant Yoyo
+	ValiantLance.DisplayName: Valiant Lance
+	CarrotProj.DisplayName: Caustic Carrot
+	BoomShroom.DisplayName: Boom Shroom
+	TrippyYoyo.DisplayName: Bad Trip
+	BoomShroomMage.DisplayName: Boom Shroom
+	LycoRay.DisplayName: Lycopite Ray
+	LycoSpore.DisplayName: Lycopite Spore
+	BabyOilMonster.DisplayName: Mini Oil Monster
+	OilBoomSmall.DisplayName: Oil Boom Small
+	PolymerSlime.DisplayName: Polymer Slime
+	LycoSporeMelee.DisplayName: Lycopite Spore
+	LycoSwing.DisplayName: Spore Sower
+	FrenchFlag.DisplayName: French Flag
+	RosePetal.DisplayName: Rose Petal
+	RosePetalBig.DisplayName: Big Homing Rose Petal
+	SpaceTrash.DisplayName: Space Trash
+	SpaceTrash2.DisplayName: Space Trash
+	SpaceTrash3.DisplayName: Space Trash
+	CiaSpawn.DisplayName: Cia Spawn
+	CiaShot2.DisplayName: Cia Shot
+	CiaShot.DisplayName: Cia Shot
+	CiaShot3.DisplayName: Cia Shot
+	Baconator.DisplayName: Baconator
+	Tomato.DisplayName: Tomato
+	BeetleFriend.DisplayName: Beetle Friend
+	JevilScythe.DisplayName: DEVILSKNIFE
+	JevilScythe2.DisplayName: DEVILSKNIFE
+	RiverHead.DisplayName: River Head
+	DaggerProjThrown.DisplayName: Deliriant Dagger
+	SaberProjThrown.DisplayName: Saber of the Europoor
+	VerdantProjThrown.DisplayName: Verdant Claymore
+	ManeSwing.DisplayName: Mane Ax
+	RudeBuster.DisplayName: Rude Buster
+	ArcaneDart.DisplayName: Arcane Dart
+	LycoSporeRanged.DisplayName: Lycopite Spore
+	LycoSpawn.DisplayName: Lyco Spawn
+	LycoShot.DisplayName: Lycopite Bullet
+	SoulSpawn.DisplayName: Soul Spawn
+	JusticeSwing.DisplayName: Justice Axe
+	RuderBuster.DisplayName: Red Buster
+	BigShot.DisplayName: Big Shot
+	Pipis.DisplayName: Pipis
+	SpamtonHead.DisplayName: Spamton Head
+	RainbowBullet.DisplayName: Rainbow Bullet
+	RainbowShard.DisplayName: Rainbow Shard
+	KnightSpawn.DisplayName: Knight Spawn
+	KnightSwordDown.DisplayName: Black Knife
+	KnightSwordUp.DisplayName: Black Knife
+	KnightStar.DisplayName: Roaring Star
+	KnightStarSpawn.DisplayName: Roaring Star Spawn
+	KnightStarSpawnSlow.DisplayName: Roaring Star Spawn
+	KnightSwordCombo.DisplayName: Knight Sword
+	BlackshardProj.DisplayName: Blackshard
+	BlackshardThrown.DisplayName: Blackshard Thrown
+	RedneckShovel.DisplayName: Redneck Shovel
+	RedneckShovelHallow.DisplayName: Redneck Shovel Hallowed
+	PurifiedSaltProj.DisplayName: Purified Salt Proj
+	ShroomBoom.DisplayName: Shroom Boom
+	ShroomiteMissileProj.DisplayName: Shroomite Missile Proj
+	TerraRoundCopy.DisplayName: Terra Round Copy
+	PurifiedSaltRanged.DisplayName: Purified Salt Ranged
+	IedThrown.DisplayName: Ied Thrown
+	IedBoom.DisplayName: Ied Boom
+	MagicBall.DisplayName: Magic Ball
+	MagicSpear.DisplayName: Magic Spear
+	RazorLeaf.DisplayName: Razor Leaf
+	WeedDart.DisplayName: Weed Dart
+	RazorLeafMage.DisplayName: Razor Leaf Mage
+	ZazaMagic.DisplayName: Zaza Magic
+	ZazaSpawn.DisplayName: Zaza Spawn
+	VileFlame.DisplayName: Vile Flame
+	VileSpawn.DisplayName: Vile Spawn
+	BloodshotBomb.DisplayName: Bloodshot Bomb
+	BloodshotSpawn.DisplayName: Bloodshot Spawn
+	BloodIchor.DisplayName: Blood Ichor
+	DirtBulletProj.DisplayName: Dirt Bullet Proj
+}
+
+Buffs: {
+	Sauced: {
+		DisplayName: Sauced
+		Description: ur totallyyyyyy sauceddddd brooooooo (too sauced to feel pain)
+	}
+
+	DildoWhipBuff: {
+		DisplayName: Dildo Whip Buff
+		Description: Mods.gunrightsmod.Buffs.DildoWhipBuff.Description
+	}
+
+	PoopSocked: {
+		DisplayName: Poop Socked
+		Description: Mods.gunrightsmod.Buffs.PoopSocked.Description
+	}
+
+	BrainRotted: {
+		DisplayName: Brain Rotted
+		Description: You watched too much Skibidi Toilet...
+	}
+
+	RedBloonBuff: {
+		DisplayName: Red Bloon Buff
+		Description: A red bloon is fighting on your behalf!
+	}
+
+	RainbowBloonBuff: {
+		DisplayName: Rainbow Bloon Buff
+		Description: A rainbow bloon is fighting on your behalf!
+	}
+
+	CeramicBloonBuff: {
+		DisplayName: Ceramic Bloon Buff
+		Description: A Ceramic bloon is fighting on your behalf!
+	}
+
+	SuperCeramBuff: {
+		DisplayName: Super Ceram Buff
+		Description: A Super Ceramic bloon is fighting on your behalf!
+	}
+
+	KevlarTag: {
+		DisplayName: Kevlar Tag
+		Description: Mods.gunrightsmod.Buffs.KevlarTag.Description
+	}
+
+	PlasmoidFriend: {
+		Description: You have a plasmoid friend protecting you!
+		DisplayName: Plasmoid Friend
+	}
+
+	PlutoWhipBuff: {
+		DisplayName: Pluto Whip Buff
+		Description: Mods.gunrightsmod.Buffs.PlutoWhipBuff.Description
+	}
+
+	BalkanRage: {
+		DisplayName: Balkan Rage
+		Description: those who know...
+	}
+
+	LilTMan: {
+		DisplayName: Lil T Man
+		Description: Mods.gunrightsmod.Buffs.LilTMan.Description
+	}
+
+	Stamped: {
+		DisplayName: Stamped
+		Description: Mods.gunrightsmod.Buffs.Stamped.Description
+	}
+
+	PearlTag: {
+		Description: Mods.gunrightsmod.Buffs.PearlTag.Description
+		DisplayName: Pearl Tag
+	}
+
+	GalaxyTag: {
+		Description: Mods.gunrightsmod.Buffs.GalaxyTag.Description
+		DisplayName: Galaxy Tag
+	}
+
+	EmblemTag: {
+		Description: Mods.gunrightsmod.Buffs.EmblemTag.Description
+		DisplayName: Emblem Tag
+	}
+
+	WeaponImbueOil: {
+		DisplayName: Weapon Imbue Oil
+		Description: Melee and Whip attacks inflict Oiled on the target
+	}
+
+	KingTag: {
+		DisplayName: King Tag
+		Description: Mods.gunrightsmod.Buffs.KingTag.Description
+	}
+
+	SmoothTag: {
+		DisplayName: Smooth Tag
+		Description: Mods.gunrightsmod.Buffs.SmoothTag.Description
+	}
+
+	SpikyTag: {
+		DisplayName: Spiky Tag
+		Description: Mods.gunrightsmod.Buffs.SpikyTag.Description
+	}
+
+	SlimeMinesBuff: {
+		DisplayName: Slime Mines Buff
+		Description: A Slime Mine is occupying your minion slot
+	}
+
+	SlimeMinesBuff2: {
+		DisplayName: Slime Mines Buff
+		Description: A Slime Mine is occupying your sentry slot
+	}
+
+	SlimeMinesBuff3: {
+		DisplayName: Slime Mines Buff
+		Description: A Slime Mine is occupying your sentry slot
+	}
+
+	SlimeMinesBuff4: {
+		DisplayName: Slime Mines Buff
+		Description: A Slime Mine is occupying your sentry slot
+	}
+
+	CasaBuff: {
+		Description: The Casanova is buffing your health (regen) and stealth!
+		DisplayName: Casanova
+	}
+
+	HeartBuff: {
+		Description: The Heartache is buffing your life regen!
+		DisplayName: Heartache
+	}
+
+	MambaBuff: {
+		Description: The Black Mamba is buffing your health regen and speed!
+		DisplayName: Black Mamba
+	}
+
+	LycopiteSpores: {
+		DisplayName: Lycopite Spores
+		Description: Lycopite Spores ravage your defense
+	}
+
+	OilMonsterBuff: {
+		DisplayName: Mini Oil Monster Buff
+		Description: A mini oil monster is fighting for you!
+	}
+
+	PolymerSlimeBuff: {
+		DisplayName: Polymer Slime Buff
+		Description: silly little guy :3
+	}
+
+	JevilTag: {
+		DisplayName: Jevil Tag
+		Description: Mods.gunrightsmod.Buffs.JevilTag.Description
+	}
+
+	WeaponImbueShadowflame: {
+		DisplayName: Weapon Imbue Shadowflame
+		Description: Melee and Whip attacks inflict Shadowflame on the target
+	}
+
+	RudeBusterCooldown: {
+		DisplayName: Rude Buster Cooldown
+		Description: You're not feeling very rude, Buster!
+	}
+
+	BigShotCooldown: {
+		DisplayName: Big Shot Cooldown
+		Description: Now's NOT your chance to be a [BIG SHOT]
+	}
+
+	OtherworldPoisoning: {
+		DisplayName: Otherworld Poisoning
+		Description: "'Unfortunate' doesn't begin to describe your series, this game rewards blind luck and nothing else, you are beyond convinced at this point."
+	}
+
+	VpTag: {
+		DisplayName: Vp Tag
+		Description: Mods.gunrightsmod.Buffs.VpTag.Description
+	}
+
+	BlackshardDebuff: {
+		DisplayName: Blackshard Debuff
+		Description: Mods.gunrightsmod.Buffs.BlackshardDebuff.Description
+	}
+
+	DarkPower: {
+		Description: The Blackshard is lending you it's terrifying power...
+		DisplayName: Dark Power
+	}
+
+	JungleHealing: {
+		DisplayName: Jungle Healing
+		Description: Heals the player and cures poison
+	}
+
+	VerdantTag: {
+		DisplayName: Verdant Tag
+		Description: Mods.gunrightsmod.Buffs.VerdantTag.Description
+	}
+
+	DeliriantTag: {
+		Description: Mods.gunrightsmod.Buffs.DeliriantTag.Description
+		DisplayName: Deliriant Tag
+	}
+
+	RedneckTag: {
+		DisplayName: Redneck Tag
+		Description: Mods.gunrightsmod.Buffs.RedneckTag.Description
+	}
+}
+
+DamageClasses: {
+	Stupid.DisplayName: Stupid
+	StupidDamage.DisplayName: stupid damage
+	StupidPlusRangedDamage.DisplayName: ranged+stupid damage
+	AutismDamage.DisplayName: magic+stupid damage
+	OmniDamage.DisplayName: omni damage
+	RangedSummonDamage.DisplayName: ranged+summon damage
+	RangedMagicDamage.DisplayName: ranged+magic damage
+	SummonStupidDamage.DisplayName: summon+stupid damage
+	RangedStupidDamage.DisplayName: ranged+stupid damage
+	MeleeStupidDamage.DisplayName: melee+stupid damage
+	MeleeMagicDamage.DisplayName: melee+magic damage
+	MeleeSummonDamage.DisplayName: melee+summon damage
+	MagicSummonDamage.DisplayName: magic+summon damage
+	MeleeRangedDamage.DisplayName: melee+ranged damage
+}
+
+NPCs: {
+	Politician: {
+		TownNPCMood: {
+			Princess_LovesNPC: I like {NPCName}.
+			LikeNPC_Princess: I like {NPCName}.
+			HateNPC: I hate {NPCName}.
+			LikeNPC: I like {NPCName}.
+			LoveNPC: I love {NPCName}.
+			DislikeBiome: I dislike {BiomeName}.
+			LikeBiome: I like {BiomeName}.
+			HateCrowded: Too many god damn poors around here.
+			DislikeCrowded: I dislike how many poors are around.
+			LoveSpace: I love being away from all the poors.
+			FarFromHome: Where the fuck am i??? ill call the CIA on your ass!.
+			NoHome: Is this what the poors go through??? maybe i am a monster.
+			Content: I am content with the lack of poor people in this locale
+		}
+
+		DisplayName: Politician
+		Census.SpawnCondition: Hold Demonite or Crimtane ore in your inventory
+	}
+
+	OilSlime.DisplayName: Oil Slime
+	TrashSlime.DisplayName: Trash Slime
+	Plasmoid.DisplayName: Plasmoid
+	LargePlasmoid.DisplayName: Large Plasmoid
+	UnstablePlasmoid.DisplayName: Unstable Plasmoid
+	FlyingPig.DisplayName: Flying Pig
+	SaltMonster.DisplayName: Salt Monster
+	OilMonster.DisplayName: Oil Monster
+
+	River: {
+		DisplayName: Dumbass
+		Census.SpawnCondition: Hold the Collar of the Damned in your inventory
+
+		TownNPCMood: {
+			Content: Could be better, could be worse.
+			NoHome: Did you kick me out because I'm not paying rent?
+			FarFromHome: Call me Spiderman because dear Empress am I far from my house.
+			LoveSpace: Thanks for the open space, I have really bad anxiety.
+			DislikeCrowded: I can't deal with people right now, ok-?
+			HateCrowded: This place is scary - Can we leave?
+			LikeBiome: The weather gives me an excuse to stay inside and play on my phone.
+			HateBiome: I don't wanna place anymore. I don't wanna place anymore. I don't wanna place anymore. I don't wanna place anymore. I don't wanna place anymore.I don't wanna place anymore. I don't wanna place anymore. I don't wanna place anymore. I don't wanna place anymore. I don't wanna place anymore.
+			LoveNPC: "{NPCName} the Pirate and I do what we want 'cuz pirates are free!"
+			DislikeNPC: God, I hate paying taxes...
+			HateNPC: Since when did we have elections in Terraria? Get that white-haired idiot the fuck out of here.
+			LikeNPC_Princess: So... She's obviously a kid, right? I HAVE to like her??? Fine..
+			Princess_LovesNPC: So... She's obviously a kid, right? I HAVE to like her??? Fine..
+			LoveBiome: This place is as bi as I am, and I LOVE it!
+			DislikeBiome: God, it's so muggy here, it's hard to breathe...
+			LikeNPC: "{NPCName} the Angler's the only person actually willing to employ me, good kid."
+		}
+	}
+}
+
+WorldGen: {
+	BlessedWithThroarbiumOreMessage: Decomposing biomatter into oil
+	MagnoliaOrePassMessage: Decomposing biomatter into oil
+	LycopiteMessage: Glowing reddish-orange spores stir far beneath the surface...
+	LycopiteBlessMessage: Glowing reddish-orange spores stir far beneath the surface...
+}
+
+Tiles: {
+	OilDeposit.MapEntry: Oil Deposit
+	ThankYouPainting.MapEntry: Thank You Painting
+	LycopiteOreTile.MapEntry: Lycopite Ore Tile
+}
+
+Prefixes.Dumb.DisplayName: Dumb

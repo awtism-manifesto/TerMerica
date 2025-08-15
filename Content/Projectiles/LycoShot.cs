@@ -1,0 +1,160 @@
+﻿using gunrightsmod.Content.Buffs;
+using gunrightsmod.Content.Dusts;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using System;
+using Terraria;
+using Terraria.Audio;
+using Terraria.GameContent;
+using Terraria.GameContent.Drawing;
+using Terraria.ID;
+using Terraria.ModLoader;
+
+
+namespace gunrightsmod.Content.Projectiles
+{
+    public class LycoShot : ModProjectile
+    {
+        public override void SetStaticDefaults()
+        {
+            ProjectileID.Sets.TrailCacheLength[Projectile.type] = 5; // The length of old position to be recorded
+            ProjectileID.Sets.TrailingMode[Projectile.type] = 0; // The recording mode
+        }
+
+        public override void SetDefaults()
+        {
+            Projectile.width = 10; // The width of projectile hitbox
+            Projectile.height = 10; // The height of projectile hitbox
+            Projectile.aiStyle = 1; // The ai style of the projectile, please reference the source code of Terraria
+            Projectile.friendly = true; // Can the projectile deal damage to enemies?
+            Projectile.hostile = false; // Can the projectile deal damage to the player?
+            Projectile.DamageType = DamageClass.Ranged; // Is the projectile shoot by a ranged weapon?
+            Projectile.penetrate = 1; // How many monsters the projectile can penetrate. (OnTileCollide below also decrements penetrate for bounces as well)
+            Projectile.timeLeft = 250; // The live time for the projectile (60 = 1 second, so 600 is 10 seconds)
+            Projectile.alpha = 255;
+            Projectile.light = 0.4f; // How much light emit around the projectile
+            Projectile.ignoreWater = true; // Does the projectile's speed be influenced by water?
+            Projectile.tileCollide = true; // Can the projectile collide with tiles?
+            Projectile.extraUpdates = 2; // Set to above 0 if you want the projectile to update multiple time in a frame
+
+            AIType = ProjectileID.Bullet; // Act exactly like default Bullet
+        }
+        public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers)
+        {
+            if (target.HasBuff(ModContent.BuffType<RedneckTag>()))
+            {
+                modifiers.SourceDamage *= 1.5f;
+            }
+            if (target.HasBuff(ModContent.BuffType<VpTag>()))
+            {
+                modifiers.SourceDamage *= 1.66f;
+            }
+        }
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+        {
+
+
+
+
+            if (target.HasBuff(ModContent.BuffType<RedneckTag>()))
+            {
+                ParticleOrchestrator.RequestParticleSpawn(clientOnly: false, ParticleOrchestraType.TrueNightsEdge,
+                  new ParticleOrchestraSettings { PositionInWorld = Main.rand.NextVector2FromRectangle(target.Hitbox) },
+                  Projectile.owner);
+
+                SoundEngine.PlaySound(SoundID.Item37, target.position);
+
+            }
+
+            if (target.HasBuff(ModContent.BuffType<VpTag>()))
+            {
+                ParticleOrchestrator.RequestParticleSpawn(clientOnly: false, ParticleOrchestraType.Excalibur,
+                  new ParticleOrchestraSettings { PositionInWorld = Main.rand.NextVector2FromRectangle(target.Hitbox) },
+                  Projectile.owner);
+
+                SoundEngine.PlaySound(SoundID.Item37, target.position);
+
+            }
+
+
+        }
+
+        public override bool OnTileCollide(Vector2 oldVelocity)
+        {
+            // If collide with tile, reduce the penetrate.
+            // So the projectile can reflect at most 5 times
+            Projectile.penetrate--;
+            if (Projectile.penetrate <= 0)
+            {
+                Projectile.Kill();
+            }
+            else
+            {
+                Collision.HitTiles(Projectile.position, Projectile.velocity, Projectile.width, Projectile.height);
+                SoundEngine.PlaySound(SoundID.Item10, Projectile.position);
+
+                // If the projectile hits the left or right side of the tile, reverse the X velocity
+                if (Math.Abs(Projectile.velocity.X - oldVelocity.X) > float.Epsilon)
+                {
+                    Projectile.velocity.X = -oldVelocity.X;
+                }
+
+                // If the projectile hits the top or bottom side of the tile, reverse the Y velocity
+                if (Math.Abs(Projectile.velocity.Y - oldVelocity.Y) > float.Epsilon)
+                {
+                    Projectile.velocity.Y = -oldVelocity.Y;
+                }
+            }
+
+            return false;
+        }
+
+        public override bool PreDraw(ref Color lightColor)
+        {
+            Texture2D texture = TextureAssets.Projectile[Type].Value;
+
+            // Redraw the projectile with the color not influenced by light
+            Vector2 drawOrigin = new Vector2(texture.Width * 0.5f, Projectile.height * 0.5f);
+            for (int k = 0; k < Projectile.oldPos.Length; k++)
+            {
+                Vector2 drawPos = Projectile.oldPos[k] - Main.screenPosition + drawOrigin + new Vector2(0f, Projectile.gfxOffY);
+                Color color = Projectile.GetAlpha(lightColor) * ((Projectile.oldPos.Length - k) / (float)Projectile.oldPos.Length);
+                Main.EntitySpriteDraw(texture, drawPos, null, color, Projectile.rotation, drawOrigin, Projectile.scale, SpriteEffects.None, 0);
+            }
+
+            return true;
+        }
+        
+        public override void AI()
+        {
+
+            
+
+                // dust, all dust
+                if (Projectile.alpha <198)
+            {
+                for (int i = 0; i < 2; i++)
+                {
+                    float posOffsetX = 0f;
+                    float posOffsetY = 0f;
+                    if (i == 1)
+                    {
+                        posOffsetX = Projectile.velocity.X * 2.5f;
+                        posOffsetY = Projectile.velocity.Y * 2.5f;
+                    }
+
+                    Dust chudDust = Dust.NewDustDirect(new Vector2(Projectile.position.X + 1f + posOffsetX, Projectile.position.Y + 1f + posOffsetY) - Projectile.velocity * 0.1f, Projectile.width - 12, Projectile.height - 12, ModContent.DustType<LycopiteDust>(), 0f, 0f, 100, default, 0.255f);
+                    chudDust.fadeIn = 0.1f + Main.rand.Next(5) * 0.1f;
+                    chudDust.velocity *= 0.1f;
+                }
+            }
+        }
+
+       
+
+    }
+
+}
+
+
+

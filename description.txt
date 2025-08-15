@@ -1,0 +1,42 @@
+[h1]Welcome to TerMerica![/h1]
+
+TerMerica is the perfect mod for those of us who want just that extra little bit of American freedom in our terraria playthroughs. And by American freedom, i mean tons of guns, explosives, and virtually any other type of weapon of war you can think of!
+
+This is [b] one of the largest weapons expansion mods on 1.4 TModLoader, adding over 250 total weapons, and almost 450 total items. 
+
+I am still learning and improving at modding terraria, so expect major revamps and updates in the future!
+
+Some features of this mod are admittedly quite crude and unserious, but everything should be balanced, especially when played with other content mods.
+
+[b] Speaking of other content mods, TerMerica should be compatible with **almost** any mod and has built-in compatibility with many mods, including but not limited to:
+Calamity Mod
+Thorium Mod
+Secrets of the Shadows
+Macrocosm
+Spooky Mod
+and more!! [/b]
+**The only mod i've found that causes issues with TerMerica is Colored Damage Types. I have no idea why it breaks stuff. If there are any other incompatibilities or weird interactions please report them in the Discord(Linked below).
+
+[h3]TerMerica adds two new damage classes: Stupid and Omni. Stupid is a meme class, and Omni damage weapons are boosted by all class-specific bonuses
+
+Lots of TerMerica's gear is designed with multiclassing in mind. Don't feel pressured to stick to just one class!
+
+TerMerica has 2 new Town NPCs, the Politician and Dumbass (Hints for unlocking: politicians are attracted to pure evil, and the Dumbass won't stop babbling about crabs for some reason...)
+
+Due to the American military-industrial complex, many vanilla weapons have been buffed and/or reworked to meet rigorous military standards.
+
+TerMerica also makes Rocket Launchers, Flamethrowers, and Dartguns more developed subclasses, with full game progression for all three subclasses.[/h3]
+
+Additionally, TerMerica makes the enemies in your world richer, like the actual United States. (many enemies drop new/extra items!)
+
+TerMerica is currently best enjoyed with other larger content mods like the ones mentioned above, as it is currently a smaller content mod.
+
+Feel free to leave a comment or join our discord https://discord.gg/t8pQ48eqsm for balance suggestions,item ideas bug reports, or to join the TerMerica team.
+
+I would recommend using Recipe Browser to figure out TerMerica's many recipes.
+
+TerMerica has very little world generation and doesn't rework major game mechanics, so it is even able to be added to heavily modded playthroughs/playthroughs already in progress with no issues.
+
+If you are a mod developer, I both allow and actively encourage you to create DLC's, Addons, or localizations of TerMerica. I would also reccomend joining the discord if you are going to do this (link above)
+
+Special thanks to River, Sprunolia, Yelmut, Hannibal, Pil, and the Pixel Gun 3D Wiki for sprite art!!!
