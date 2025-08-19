@@ -98,6 +98,14 @@ namespace gunrightsmod.Content.Items
             recipe.AddTile(TileID.Loom);
            
             recipe.Register();
+            if (ModLoader.TryGetMod("ThoriumMod", out Mod ThorMerica) && ThorMerica.TryFind("LivingLeaf", out ModItem LivingLeaf))
+
+
+            {
+                recipe.AddIngredient(LivingLeaf.Type, 4);
+
+
+            }
         }
         public override void UpdateArmorSet(Player player)
         {

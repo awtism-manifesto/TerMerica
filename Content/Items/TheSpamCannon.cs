@@ -23,7 +23,7 @@ namespace gunrightsmod.Content.Items
             Item.knockBack = 5.5f;
             Item.width = 40;
             Item.height = 40;
-            Item.mana = 4;
+            
 
             if (ModLoader.TryGetMod("SOTS", out Mod SOTSMerica))
             {
@@ -37,7 +37,7 @@ namespace gunrightsmod.Content.Items
 
             }
 
-
+            Item.mana = 2;
            
             
             Item.UseSound = SoundID.Item61;
@@ -49,7 +49,20 @@ namespace gunrightsmod.Content.Items
           
             Item.autoReuse = true;
         }
-       
+        public override bool CanUseItem(Player player)
+        {
+            if (player.altFunctionUse == 2)
+            {
+                Item.mana = 20;
+            }
+            else
+            {
+                Item.mana = 2;
+
+            }
+
+            return base.CanUseItem(player);
+        }
         public override bool AltFunctionUse(Player player)
         {
 

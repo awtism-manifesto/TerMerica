@@ -4,7 +4,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria;
-using MagnoliaMod.Content.Items.Other;
+
 
 namespace gunrightsmod.Content.Items
 {
@@ -29,7 +29,7 @@ namespace gunrightsmod.Content.Items
         public override void ModifyTooltips(List<TooltipLine> tooltips)
         {
             // Here we add a tooltipline that will later be removed, showcasing how to remove tooltips from an item
-            var line = new TooltipLine(Mod, "Face", "Can be found in the ruins of Berlin");
+            var line = new TooltipLine(Mod, "Face", "Based");
             tooltips.Add(line);
 
             line = new TooltipLine(Mod, "Face", "")
@@ -57,7 +57,7 @@ namespace gunrightsmod.Content.Items
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<Items.Placeables.BlankFlag>(1);
+            recipe.AddIngredient<Items.BlankFlag>(1);
             recipe.AddIngredient(ItemID.Wood, 2);
             recipe.AddTile(TileID.WorkBenches);
             recipe.Register();

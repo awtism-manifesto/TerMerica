@@ -63,7 +63,7 @@ namespace gunrightsmod.Content.Projectiles
             target.AddBuff(BuffID.Wet, 180);
             target.AddBuff(BuffID.Electrified, 180);
            
-            target.immune[Projectile.owner] = 3;
+            target.immune[Projectile.owner] = 4;
             
         }
         public override void OnKill(int timeLeft)

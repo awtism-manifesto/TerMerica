@@ -1030,7 +1030,7 @@ namespace gunrightsmod.Content.GlobalItems
             damage = (int)(damage * 0.65f);
             if (type == ProjectileID.FairyQueenRangedItemShot)
             {
-                damage = (int)(damage * 1.85f);
+                damage = (int)(damage * 1.83f);
             }
 
         }
@@ -1054,7 +1054,7 @@ namespace gunrightsmod.Content.GlobalItems
             item.useAnimation = 15;
             item.shootSpeed = 15.25f;
            
-            item.damage = 35;
+            item.damage = 33;
         }
 
 

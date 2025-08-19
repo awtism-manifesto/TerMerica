@@ -73,10 +73,10 @@ namespace gunrightsmod.Content.Items
             for (int i = 0; i < NumProjectiles; i++)
             {
                 // Rotate the velocity randomly by 30 degrees at max.
-                Vector2 newVelocity = velocity.RotatedByRandom(MathHelper.ToRadians(22));
+                Vector2 newVelocity = velocity.RotatedByRandom(MathHelper.ToRadians(25));
 
                 // Decrease velocity randomly for nicer visuals.
-                newVelocity *= 1f - Main.rand.NextFloat(0.48f);
+                newVelocity *= 1f - Main.rand.NextFloat(0.47f);
 
                 // Create a projectile.
                 Projectile.NewProjectileDirect(source, position, newVelocity, type, damage, knockback, player.whoAmI);
@@ -91,7 +91,7 @@ namespace gunrightsmod.Content.Items
             var line = new TooltipLine(Mod, "Face", "Unleashes multiple hurricanes that continuously damage enemies");
             tooltips.Add(line);
 
-            line = new TooltipLine(Mod, "Face", "Courtesy of the democrats and definitely not big oil...")
+            line = new TooltipLine(Mod, "Face", "")
             {
                 OverrideColor = new Color(255, 255, 255)
             };

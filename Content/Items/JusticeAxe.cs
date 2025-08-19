@@ -30,7 +30,7 @@ namespace gunrightsmod.Content.Items
             Item.knockBack = 11.5f;
             Item.width = 40;
             Item.height = 40;
-            Item.mana = 3;
+           
             Item.shootSpeed = 9.25f;
             Item.scale = 1.775f;
             Item.axe = 45;
@@ -42,6 +42,7 @@ namespace gunrightsmod.Content.Items
             Item.noMelee = true; // This is set the sword itself doesn't deal damage (only the projectile does).
             Item.shootsEveryUse = true; // This makes sure Player.ItemAnimationJustStarted is set when swinging.
             Item.autoReuse = true;
+            Item.mana = 0;
         }
        
         public override bool AltFunctionUse(Player player)
@@ -53,6 +54,20 @@ namespace gunrightsmod.Content.Items
            
         }
         private int justiceaxecooldown = 0;
+        public override bool CanUseItem(Player player)
+        {
+            if (player.altFunctionUse == 2)
+            {
+                Item.mana = 15;
+            }
+            else
+            {
+                Item.mana = 0;
+               
+            }
+
+            return base.CanUseItem(player);
+        }
         public override void UpdateInventory(Player player)
         {
             if (justiceaxecooldown > 0)
@@ -68,7 +83,7 @@ namespace gunrightsmod.Content.Items
                 if (justiceaxecooldown > 0)
                     return false;
 
-                if (ModLoader.TryGetMod("FargowiltasSouls", out Mod FargoMerica))//fixing weird fargos bug
+                if (ModLoader.TryGetMod("FargowiltasSouls", out Mod FargoMerica))//fixing weird fargos bug (with spite)
                 { justiceaxecooldown = 45; }
                 else
                 { justiceaxecooldown = 60; }

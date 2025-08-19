@@ -2588,6 +2588,31 @@ Items: {
 		DisplayName: Wind Tome
 		Tooltip: ""
 	}
+
+	AmericaFlag: {
+		DisplayName: America Flag
+		Tooltip: ""
+	}
+
+	BlankFlag: {
+		DisplayName: Blank Flag
+		Tooltip: ""
+	}
+
+	PrideFlag: {
+		DisplayName: Pride Flag
+		Tooltip: ""
+	}
+
+	SovietFlag: {
+		DisplayName: Soviet Flag
+		Tooltip: ""
+	}
+
+	ShroomiteBladegun: {
+		Tooltip: ""
+		DisplayName: Shroomite Bladegun
+	}
 }
 
 Projectiles: {
@@ -2975,6 +3000,11 @@ Projectiles: {
 	GunbladeSwing.DisplayName: Gunblade Swing
 	BlueMaticHornProjectile.DisplayName: Blue Matic Horn Projectile
 	WindTomeProjectile.DisplayName: Wind Tome Projectile
+	BladegunBomb.DisplayName: Bladegun Bomb
+	BladegunSwing.DisplayName: Bladegun Swing
+	BladegunWave.DisplayName: Bladegun Wave
+	BladegunSpawn.DisplayName: Bladegun Spawn
+	BladegunWave2.DisplayName: Bladegun Wave2
 }
 
 Buffs: {

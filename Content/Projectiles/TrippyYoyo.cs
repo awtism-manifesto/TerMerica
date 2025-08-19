@@ -31,7 +31,7 @@ namespace gunrightsmod.Content.Projectiles
         public override void AI()
         {
            
-                // Only run on the server
+               
                 if (nextSpawnTick == 0)
                 {
                     nextSpawnTick = Main.rand.Next(24, 26);
@@ -49,7 +49,7 @@ namespace gunrightsmod.Content.Projectiles
                     tickCounter = 0;
                     nextSpawnTick = Main.rand.Next(24, 26);
 
-                    // Optionally: flag to sync the projectile state
+                    
                     Projectile.netUpdate = true;
                 }
             

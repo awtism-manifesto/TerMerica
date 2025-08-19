@@ -4,7 +4,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria;
-using MagnoliaMod.Content.Items.Other;
+
 
 namespace gunrightsmod.Content.Items
 {
@@ -29,7 +29,7 @@ namespace gunrightsmod.Content.Items
         public override void ModifyTooltips(List<TooltipLine> tooltips)
         {
             // Here we add a tooltipline that will later be removed, showcasing how to remove tooltips from an item
-            var line = new TooltipLine(Mod, "Face", "United we stand divided we fall");
+            var line = new TooltipLine(Mod, "Face", "Independent we stand, dependent we fall...");
             tooltips.Add(line);
 
             line = new TooltipLine(Mod, "Face", "")

@@ -33,7 +33,7 @@ namespace gunrightsmod.Content.Items
             Item.shootSpeed = 7.25f;
             Item.scale = 1.5f;
             Item.axe = 23;
-            Item.mana = 1;
+           
             Item.UseSound = SoundID.Item1;
             Item.rare = ItemRarityID.Orange;
             Item.value = Item.buyPrice(gold: 10); // Sell price is 5 times less than the buy price.
@@ -42,8 +42,22 @@ namespace gunrightsmod.Content.Items
             Item.noMelee = true; // This is set the sword itself doesn't deal damage (only the projectile does).
             Item.shootsEveryUse = true; // This makes sure Player.ItemAnimationJustStarted is set when swinging.
             Item.autoReuse = true;
+            Item.mana = 0;
         }
-       
+        public override bool CanUseItem(Player player)
+        {
+            if (player.altFunctionUse == 2)
+            {
+                Item.mana = 10;
+            }
+            else
+            {
+                Item.mana = 0;
+
+            }
+
+            return base.CanUseItem(player);
+        }
         public override bool AltFunctionUse(Player player)
         {
 

@@ -83,7 +83,7 @@ namespace gunrightsmod.Content.Items
                 Item.useStyle = ItemUseStyleID.Shoot;
                 Item.useTime = 5;
                 Item.useAnimation = 10;
-                Item.reuseDelay = 12;
+                Item.reuseDelay = 10;
                 Item.useAmmo = AmmoID.Bullet;
             }
 
@@ -140,7 +140,7 @@ namespace gunrightsmod.Content.Items
                 OverrideColor = new Color(255, 255, 255)
             };
             tooltips.Add(line);
-            line = new TooltipLine(Mod, "Face", "")
+            line = new TooltipLine(Mod, "Face", "'Not to be confused with the Shroomite Bladegun'")
             {
                 OverrideColor = new Color(255, 255, 255)
             };

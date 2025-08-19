@@ -31,7 +31,7 @@ namespace gunrightsmod.Content.Items
             var line = new TooltipLine(Mod, "Face", "Used to craft various flags");
             tooltips.Add(line);
 
-            line = new TooltipLine(Mod, "Face", "")
+            line = new TooltipLine(Mod, "Face", "'can also be interpreted as a French flag'")
             {
                 OverrideColor = new Color(255, 255, 255)
             };
@@ -62,9 +62,9 @@ namespace gunrightsmod.Content.Items
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.Wood, 5);
-            recipe.AddIngredient(ItemID.Silk, 6);
-            recipe.AddTile(TileID.WorkBenches);
+            recipe.AddRecipeGroup("Wood", 5);
+            recipe.AddIngredient(ItemID.Silk, 3);
+            recipe.AddTile(TileID.Loom);
             recipe.Register();
 
         }
