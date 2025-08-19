@@ -22,7 +22,7 @@ namespace gunrightsmod.Content.Items
             Item.useStyle = ItemUseStyleID.Swing;
             Item.useAnimation = 15;
             Item.useTime = 15;
-            Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Paintings.FabsolDeadPlaced>());
+            Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.FabsolDeadPlaced>());
 
         }
         public override void ModifyTooltips(List<TooltipLine> tooltips)

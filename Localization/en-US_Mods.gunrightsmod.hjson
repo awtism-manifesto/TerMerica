@@ -2563,6 +2563,31 @@ Items: {
 		Tooltip: ""
 		DisplayName: Astatine Torch
 	}
+
+	BottledShimmer: {
+		Tooltip: ""
+		DisplayName: Bottled Shimmer
+	}
+
+	WarIsOver: {
+		DisplayName: War Is Over
+		Tooltip: ""
+	}
+
+	ShroomiteGunblade: {
+		Tooltip: ""
+		DisplayName: Shroomite Gunblade
+	}
+
+	BlueMaticHorn: {
+		DisplayName: Blue-Matic Horn
+		Tooltip: ""
+	}
+
+	WindTome: {
+		DisplayName: Wind Tome
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -2945,6 +2970,11 @@ Projectiles: {
 	BloodshotSpawn.DisplayName: Bloodshot Spawn
 	BloodIchor.DisplayName: Blood Ichor
 	DirtBulletProj.DisplayName: Dirt Bullet Proj
+	GunbladeCloud.DisplayName: Gunblade Cloud
+	GunbladeSpore.DisplayName: Gunblade Spore
+	GunbladeSwing.DisplayName: Gunblade Swing
+	BlueMaticHornProjectile.DisplayName: Blue Matic Horn Projectile
+	WindTomeProjectile.DisplayName: Wind Tome Projectile
 }
 
 Buffs: {

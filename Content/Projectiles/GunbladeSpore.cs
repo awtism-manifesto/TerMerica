@@ -1,9 +1,11 @@
 ﻿using gunrightsmod.Content.Buffs;
+using gunrightsmod.Content.DamageClasses;
 using gunrightsmod.Content.Dusts;
 using Microsoft.Xna.Framework;
 using System;
 using Terraria;
 using Terraria.Audio;
+using Terraria.GameContent.Drawing;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -13,7 +15,7 @@ namespace gunrightsmod.Content.Projectiles
     /// This the class that clones the vanilla Meowmere projectile using CloneDefaults().
     /// Make sure to check out <see cref="ExampleCloneWeapon" />, which fires this projectile; it itself is a cloned version of the Meowmere.
     /// </summary>
-    public class LycoSporeMelee : ModProjectile
+    public class GunbladeSpore : ModProjectile
     {
         private NPC HomingTarget
         {
@@ -33,15 +35,13 @@ namespace gunrightsmod.Content.Projectiles
             // so we don't have to go into the source and copy the stats ourselves. It saves a lot of time and looks much cleaner;
             // if you're going to copy the stats of a projectile, use CloneDefaults().
 
-           
+            Projectile.CloneDefaults(ProjectileID.BloodArrow);
 
             // To further the Cloning process, we can also copy the ai of any given projectile using AIType, since we want
             // the projectile to essentially behave the same way as the vanilla projectile.
-           
-            Projectile.DamageType = DamageClass.Melee;
-            Projectile.friendly = true;
-            Projectile.hostile = false;
-            Projectile.timeLeft = 140;
+            Projectile.aiStyle = ProjectileID.BloodArrow;
+            ModContent.GetInstance<MeleeRangedDamage>();
+            Projectile.timeLeft = 250;
             Projectile.extraUpdates = 1;
             Projectile.tileCollide = true;
             Projectile.width = 1; // The width of projectile hitbox
@@ -51,45 +51,20 @@ namespace gunrightsmod.Content.Projectiles
             // This can be done by modifying projectile.penetrate
 
         }
-        public override bool OnTileCollide(Vector2 oldVelocity)
+       
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
-            
-            if (Projectile.penetrate <= 0)
-            {
-                Projectile.Kill();
-            }
-            else
-            {
-                Collision.HitTiles(Projectile.position, Projectile.velocity, Projectile.width, Projectile.height);
-                SoundEngine.PlaySound(SoundID.Item10, Projectile.position);
 
-                // If the projectile hits the left or right side of the tile, reverse the X velocity
-                if (Math.Abs(Projectile.velocity.X - oldVelocity.X) > float.Epsilon)
-                {
-                    Projectile.velocity.X = -oldVelocity.X;
-                }
 
-                // If the projectile hits the top or bottom side of the tile, reverse the Y velocity
-                if (Math.Abs(Projectile.velocity.Y - oldVelocity.Y) > float.Epsilon)
-                {
-                    Projectile.velocity.Y = -oldVelocity.Y;
-                }
-            }
-
-            return false;
-        }
-        public override void AI()
-        {
-          
 
 
            
 
-            if (Math.Abs(Projectile.velocity.X) <= 22.9f && Math.Abs(Projectile.velocity.Y) <= 22.9f)
-            {
-                Projectile.velocity *= 1.05f;
+        }
+        public override void AI()
+        {
 
-            }
+            // dust, all dust
 
             for (int i = 0; i < 2; i++)
             {
@@ -100,16 +75,16 @@ namespace gunrightsmod.Content.Projectiles
                     posOffsetX = Projectile.velocity.X * 2.5f;
                     posOffsetY = Projectile.velocity.Y * 2.5f;
                 }
-                Dust chudDust = Dust.NewDustDirect(new Vector2(Projectile.position.X + 1f + posOffsetX, Projectile.position.Y + 1f + posOffsetY) - Projectile.velocity * 0.1f, Projectile.width - 7, Projectile.height - 7, ModContent.DustType<LycopiteDust>(), 0f, 0f, 100, default, 0.25f);
-                chudDust.fadeIn = 0.1f + Main.rand.Next(3) * 0.1f;
+                Dust chudDust = Dust.NewDustDirect(new Vector2(Projectile.position.X + 1f + posOffsetX, Projectile.position.Y + 1f + posOffsetY) - Projectile.velocity * 0.1f, Projectile.width - 7, Projectile.height - 7, ModContent.DustType<BlueLycopiteDust>(), 0f, 0f, 100, default, 0.85f);
+                chudDust.fadeIn = 0.1f + Main.rand.Next(4) * 0.1f;
                 chudDust.velocity *= 0.1f;
 
             }
 
-            float maxDetectRadius = 700f; // The maximum radius at which a projectile can detect a target
+            float maxDetectRadius = 550f; // The maximum radius at which a projectile can detect a target
 
             // A short delay to homing behavior after being fired
-            if (DelayTimer < 30)
+            if (DelayTimer < 15)
             {
                 DelayTimer += 1;
                 return;
@@ -135,7 +110,7 @@ namespace gunrightsmod.Content.Projectiles
             // We only rotate by 3 degrees an update to give it a smooth trajectory. Increase the rotation speed here to make tighter turns
             float length = Projectile.velocity.Length();
             float targetAngle = Projectile.AngleTo(HomingTarget.Center);
-            Projectile.velocity = Projectile.velocity.ToRotation().AngleTowards(targetAngle, MathHelper.ToRadians(12f)).ToRotationVector2() * length;
+            Projectile.velocity = Projectile.velocity.ToRotation().AngleTowards(targetAngle, MathHelper.ToRadians(3.99f)).ToRotationVector2() * length;
             Projectile.rotation = Projectile.velocity.ToRotation();
         }
 
@@ -168,26 +143,7 @@ namespace gunrightsmod.Content.Projectiles
 
             return closestNPC;
         }
-        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
-        {
 
-            if (Main.rand.NextBool(8))
-            {
-                target.AddBuff(ModContent.BuffType<LycopiteSpores>(), 210);
-            }
-            for (int i = 0; i < 4; i++) // Creates a splash of dust around the position the projectile dies.
-            {
-                Dust dust = Dust.NewDustDirect(target.position, target.width, target.height, (ModContent.DustType<LycopiteDust>()));
-                dust.noGravity = true;
-                dust.velocity *= 3f;
-                dust.scale *= 0.75f;
-
-            }
-
-
-
-            hit.HitDirection = (Main.player[Projectile.owner].Center.X < target.Center.X) ? 1 : (-1);
-        }
         public bool IsValidTarget(NPC target)
         {
             // This method checks that the NPC is:

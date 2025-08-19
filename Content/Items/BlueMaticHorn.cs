@@ -1,13 +1,14 @@
-﻿using System.Collections.Generic;
+﻿using gunrightsmod.Content.DamageClasses;
+using Microsoft.Xna.Framework;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Terraria;
 using Terraria.Audio;
+using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using Terraria.DataStructures;
 
 namespace gunrightsmod.Content.Items
 {
@@ -26,8 +27,8 @@ namespace gunrightsmod.Content.Items
 
 
             // Use Properties
-            Item.useTime = 15; // The item's use time in ticks (60 ticks == 1 second.)
-            Item.useAnimation = 15; // The length of the item's use animation in ticks (60 ticks == 1 second.)
+            Item.useTime = 11; // The item's use time in ticks (60 ticks == 1 second.)
+            Item.useAnimation = 11; // The length of the item's use animation in ticks (60 ticks == 1 second.)
             Item.useStyle = ItemUseStyleID.Shoot; // How you use the item (swinging, holding out, etc.)
             Item.autoReuse = true; // Whether or not you can hold click to automatically use it again.
 
@@ -37,8 +38,8 @@ namespace gunrightsmod.Content.Items
 
 
             // Weapon Properties
-            Item.DamageType = DamageClass.Ranged; // Sets the damage type to ranged.
-            Item.damage = 103; // Sets the item's damage. Note that projectiles shot by this weapon will use its and the used ammunition's damage added together.
+            Item.DamageType = ModContent.GetInstance<RangedStupidDamage>();
+            Item.damage = 131; // Sets the item's damage. Note that projectiles shot by this weapon will use its and the used ammunition's damage added together.
             Item.knockBack = 1.5f; // Sets the item's knockback. Note that projectiles shot by this weapon will use its and the used ammunition's knockback added together.
             Item.noMelee = true; // So the item's animation doesn't do damage.
 
@@ -46,7 +47,7 @@ namespace gunrightsmod.Content.Items
 
             // Gun Properties
             Item.shoot = ProjectileID.PurificationPowder; // For some reason, all the guns in the vanilla source have this.
-            Item.shootSpeed = 6.1f; // The speed of the projectile (measured in pixels per frame.)
+            Item.shootSpeed = 15.5f; // The speed of the projectile (measured in pixels per frame.)
             Item.useAmmo = AmmoID.Bullet; // The "ammo Id" of the ammo item that this weapon uses. Ammo IDs are magic numbers that usually correspond to the item id of one item that most commonly represent the ammo type.
         }
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
@@ -56,10 +57,10 @@ namespace gunrightsmod.Content.Items
             for (int i = 0; i < NumProjectiles; i++)
             {
                 // Rotate the velocity randomly by 30 degrees at max.
-                Vector2 newVelocity = velocity.RotatedByRandom(MathHelper.ToRadians(5));
+                Vector2 newVelocity = velocity.RotatedByRandom(MathHelper.ToRadians(5.33f));
 
                 // Decrease velocity randomly for nicer visuals.
-                newVelocity *= 1f - Main.rand.NextFloat(0.3f);
+                newVelocity *= 1f - Main.rand.NextFloat(0.2f);
 
                 // Create a projectile.
                 Projectile.NewProjectileDirect(source, position, newVelocity, type, damage, knockback, player.whoAmI);
