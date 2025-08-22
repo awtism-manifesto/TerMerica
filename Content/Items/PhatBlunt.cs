@@ -78,8 +78,8 @@ namespace gunrightsmod.Content.Items
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<Items.LuckyCigarette>();
-            recipe.AddIngredient<Items.WeedLeaves>(28);
+            recipe.AddIngredient< LuckyCigarette>();
+            recipe.AddIngredient< WeedLeaves>(28);
           
 
 

@@ -1301,19 +1301,19 @@ Items: {
 	PowerChestplate: {
 		DisplayName: T-45 Power Torso
 		Tooltip: ""
-		SetBonus: Mods.gunrightsmod.Items.PowerChestplate.SetBonus
+		SetBonus: Mods.gunrightsmod. PowerChestplate.SetBonus
 	}
 
 	PowerHelmet: {
 		DisplayName: T-45 Power Helmet
 		Tooltip: ""
-		SetBonus: Mods.gunrightsmod.Items.PowerHelmet.SetBonus
+		SetBonus: Mods.gunrightsmod. PowerHelmet.SetBonus
 	}
 
 	PowerPants: {
 		DisplayName: T-45 Power Leggings
 		Tooltip: ""
-		SetBonus: Mods.gunrightsmod.Items.PowerPants.SetBonus
+		SetBonus: Mods.gunrightsmod. PowerPants.SetBonus
 	}
 
 	AstatineMarksmanRifle: {
@@ -1372,7 +1372,7 @@ Items: {
 	}
 
 	LuckyCigarette: {
-		SetBonus: Mods.gunrightsmod.Items.LuckyCigarette.SetBonus
+		SetBonus: Mods.gunrightsmod. LuckyCigarette.SetBonus
 		DisplayName: Lucky Cigarette
 		Tooltip: ""
 	}
@@ -1717,19 +1717,19 @@ Items: {
 	}
 
 	OrcaMask: {
-		SetBonus: Mods.gunrightsmod.Items.OrcaMask.SetBonus
+		SetBonus: Mods.gunrightsmod. OrcaMask.SetBonus
 		DisplayName: Orca Mask
 		Tooltip: ""
 	}
 
 	OrcaSuit: {
-		SetBonus: Mods.gunrightsmod.Items.OrcaSuit.SetBonus
+		SetBonus: Mods.gunrightsmod. OrcaSuit.SetBonus
 		DisplayName: Orca Suit
 		Tooltip: ""
 	}
 
 	OrcaTail: {
-		SetBonus: Mods.gunrightsmod.Items.OrcaTail.SetBonus
+		SetBonus: Mods.gunrightsmod. OrcaTail.SetBonus
 		DisplayName: Orca Tail
 		Tooltip: ""
 	}
@@ -2978,33 +2978,33 @@ Projectiles: {
 	PurifiedSaltProj.DisplayName: Purified Salt Proj
 	ShroomBoom.DisplayName: Shroom Boom
 	ShroomiteMissileProj.DisplayName: Shroomite Missile Proj
-	TerraRoundCopy.DisplayName: Terra Round Copy
+	TerraRoundCopy.DisplayName: Terra Round Dupe
 	PurifiedSaltRanged.DisplayName: Purified Salt Ranged
-	IedThrown.DisplayName: Ied Thrown
-	IedBoom.DisplayName: Ied Boom
-	MagicBall.DisplayName: Magic Ball
-	MagicSpear.DisplayName: Magic Spear
+	IedThrown.DisplayName: IED Thrown
+	IedBoom.DisplayName: IED Boom
+	MagicBall.DisplayName: Magic 8 Ball
+	MagicSpear.DisplayName: Magic Cue
 	RazorLeaf.DisplayName: Razor Leaf
 	WeedDart.DisplayName: Weed Dart
-	RazorLeafMage.DisplayName: Razor Leaf Mage
-	ZazaMagic.DisplayName: Zaza Magic
+	RazorLeafMage.DisplayName: Razor Leaf 
+	ZazaMagic.DisplayName: Bong Smoke
 	ZazaSpawn.DisplayName: Zaza Spawn
 	VileFlame.DisplayName: Vile Flame
 	VileSpawn.DisplayName: Vile Spawn
 	BloodshotBomb.DisplayName: Bloodshot Bomb
 	BloodshotSpawn.DisplayName: Bloodshot Spawn
-	BloodIchor.DisplayName: Blood Ichor
-	DirtBulletProj.DisplayName: Dirt Bullet Proj
+	BloodIchor.DisplayName: Bloody Ichor
+	DirtBulletProj.DisplayName: Dirt Bullet 
 	GunbladeCloud.DisplayName: Gunblade Cloud
 	GunbladeSpore.DisplayName: Gunblade Spore
-	GunbladeSwing.DisplayName: Gunblade Swing
-	BlueMaticHornProjectile.DisplayName: Blue Matic Horn Projectile
-	WindTomeProjectile.DisplayName: Wind Tome Projectile
+	GunbladeSwing.DisplayName: Shroomite Gunblade
+	BlueMaticHornProjectile.DisplayName: Blue Moon Shot
+	WindTomeProjectile.DisplayName: Wind Cloud
 	BladegunBomb.DisplayName: Bladegun Bomb
-	BladegunSwing.DisplayName: Bladegun Swing
+	BladegunSwing.DisplayName: Shroomite Bladegun
 	BladegunWave.DisplayName: Bladegun Wave
 	BladegunSpawn.DisplayName: Bladegun Spawn
-	BladegunWave2.DisplayName: Bladegun Wave2
+	BladegunWave2.DisplayName: Bladegun Wave
 }
 
 Buffs: {

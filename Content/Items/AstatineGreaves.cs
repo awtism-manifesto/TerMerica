@@ -109,7 +109,7 @@ namespace gunrightsmod.Content.Items
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<Items.AstatineBar>(40);
+            recipe.AddIngredient< AstatineBar>(40);
 
             recipe.AddTile(TileID.MythrilAnvil);
             recipe.Register();

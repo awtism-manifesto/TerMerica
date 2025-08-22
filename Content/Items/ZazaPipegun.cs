@@ -108,7 +108,7 @@ namespace gunrightsmod.Content.Items
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient(ItemID.Blowpipe);
-            recipe.AddIngredient<Items.WeedLeaves>(21);
+            recipe.AddIngredient< WeedLeaves>(21);
             recipe.AddIngredient(ItemID.JungleSpores, 3);
             recipe.AddIngredient(ItemID.Torch, 10);
            

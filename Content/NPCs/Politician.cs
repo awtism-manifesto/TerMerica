@@ -223,6 +223,7 @@ namespace gunrightsmod.Content.NPCs
 
             chat.Add(Language.GetTextValue("Poor people dont deserve rights"), 0.4);
             chat.Add(Language.GetTextValue("Yeah we did 9/11 lmao"));
+            chat.Add(Language.GetTextValue("Yeah guys lets just leave AI completely unregulated. Surely nothing bad will happen because of this..."));
             chat.Add(Language.GetTextValue("Weed Leaves! an item so useful it oughta be illegal!"));
             chat.Add(Language.GetTextValue("Yeah bro trickle down economics will definitely work this time, just trust me bro. It'll trickle down, trust me. You should definitely trust me."));
             chat.Add(Language.GetTextValue("Me and my buddies in the Congress book club have been reading this really great book recently, it's called Mein Kampf"), 0.05);
@@ -297,10 +298,10 @@ namespace gunrightsmod.Content.NPCs
 
 
 
-                  .Add<Items.Beer>()
+                  .Add< Beer>()
                  .Add<CrudeOil>()
                   .Add<RefinedOil>(Condition.Hardmode)
-                    .Add<Items.FragmentFlatEarth>(Condition.DownedMoonLord)
+                    .Add< FragmentFlatEarth>(Condition.DownedMoonLord)
 
 
                    .Add(ItemID.DemoniteBar, Condition.DownedEowOrBoc)
@@ -308,21 +309,21 @@ namespace gunrightsmod.Content.NPCs
                     .Add(ItemID.TissueSample, Condition.DownedEowOrBoc)
                    .Add(ItemID.ShadowScale, Condition.DownedEowOrBoc)
                      .Add<KetamineInjection>(condition: Terraria.Condition.NpcIsPresent(NPCID.TaxCollector))
-                     .Add<Items.TarriffStamper>()
-                     .Add<Items.CarbonDioxideBottle>(Condition.DownedEarlygameBoss)
+                     .Add< TarriffStamper>()
+                     .Add< CarbonDioxideBottle>(Condition.DownedEarlygameBoss)
           
                  
                   
-                     .Add<Items.UnicornPoacher>(Condition.InHallow)
-            .Add<Items.BrokenHeroGun>(Condition.Eclipse)
+                     .Add< UnicornPoacher>(Condition.InHallow)
+            .Add< BrokenHeroGun>(Condition.Eclipse)
          
            
-              .Add<Items.LuckyCigarette>(Condition.DownedSkeletron)
-              .Add<Items.CorruptLawman>(Condition.Hardmode)
+              .Add< LuckyCigarette>(Condition.DownedSkeletron)
+              .Add< CorruptLawman>(Condition.Hardmode)
                .Add<CapitalistCarbine>(Condition.Hardmode)
-                .Add<Items.SmallSausageSpammer>(Condition.DownedPumpking)
-                .Add<Items.TheAirFlare>(Condition.DownedEmpressOfLight)
-                  .Add<Items.CIAJournalismAward>(Condition.DownedMoonLord)
+                .Add< SmallSausageSpammer>(Condition.DownedPumpking)
+                .Add< TheAirFlare>(Condition.DownedEmpressOfLight)
+                  .Add< CIAJournalismAward>(Condition.DownedMoonLord)
 
              ;
 
@@ -337,7 +338,7 @@ namespace gunrightsmod.Content.NPCs
         {
             foreach (Item item in items)
             {
-                // Skip 'air' items and null items.
+                // Skip 'air' items and null  
                 if (item == null || item.type == ItemID.None)
                 {
                     continue;

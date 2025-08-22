@@ -115,7 +115,7 @@ namespace gunrightsmod.Content.Items
         {
             Recipe recipe = CreateRecipe();
 
-            recipe.AddIngredient<Items.RockSalt>(35);
+            recipe.AddIngredient<RockSalt>(35);
            
             recipe.AddTile(TileID.Anvils);
             recipe.Register();

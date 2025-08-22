@@ -183,7 +183,7 @@ namespace gunrightsmod.Content.Items
                 recipe.AddIngredient(ItemID.ShadowFlameKnife);
                 recipe.AddIngredient(ItemID.PsychoKnife);
 
-                recipe.AddIngredient<Items.PlutoniumBar>(12);
+                recipe.AddIngredient< PlutoniumBar>(12);
                 recipe.AddTile(TileID.MythrilAnvil);
                 recipe.Register();
 

@@ -128,7 +128,7 @@ namespace gunrightsmod.Content.Items
                
               
 
-                recipe.AddIngredient<Items.WeedLeaves>(28);
+                recipe.AddIngredient< WeedLeaves>(28);
                 recipe.AddIngredient(ItemID.BottledWater, 3);
                 recipe.AddIngredient(ItemID.NaturesGift);
                 recipe.AddTile(TileID.GlassKiln);

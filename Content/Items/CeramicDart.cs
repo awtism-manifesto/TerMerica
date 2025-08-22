@@ -70,14 +70,14 @@ namespace gunrightsmod.Content.Items
                 recipe = CreateRecipe(163);
 
                 recipe.AddIngredient(WoodenDart.Type, 163);
-                recipe.AddIngredient<Items.CeramicSheet>(1);
+                recipe.AddIngredient< CeramicSheet>(1);
                 recipe.AddTile(TileID.Anvils);
                 recipe.Register();
             }
             else
             {
                 recipe = CreateRecipe(63);
-                recipe.AddIngredient<Items.CeramicSheet>(1);
+                recipe.AddIngredient< CeramicSheet>(1);
                 recipe.AddTile(TileID.Anvils);
                 recipe.Register();
 

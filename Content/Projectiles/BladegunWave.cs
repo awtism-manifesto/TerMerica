@@ -24,8 +24,8 @@ namespace gunrightsmod.Content.Projectiles
         {
             
 
-            Projectile.width = 35; // The width of projectile hitbox
-            Projectile.height = 35; // The height of projectile hitbox
+            Projectile.width = 32; // The width of projectile hitbox
+            Projectile.height = 32; // The height of projectile hitbox
 
             Projectile.scale = 1.66f;
             Projectile.timeLeft = 250;

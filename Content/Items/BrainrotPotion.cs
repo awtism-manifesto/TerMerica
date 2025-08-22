@@ -74,16 +74,16 @@ namespace gunrightsmod.Content.Items
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient(ItemID.BottledWater);
             recipe.AddIngredient(ItemID.Deathweed);
-            recipe.AddIngredient<Items.WeedLeaves>();
-            recipe.AddIngredient<Items.PlasticScrap>();
+            recipe.AddIngredient< WeedLeaves>();
+            recipe.AddIngredient< PlasticScrap>();
             recipe.AddTile(TileID.Bottles);
             recipe.Register();
 
              recipe = CreateRecipe();
             recipe.AddIngredient(ItemID.BottledWater);
             recipe.AddIngredient(ItemID.Deathweed);
-            recipe.AddIngredient<Items.WeedLeaves>();
-            recipe.AddIngredient<Items.PlasticScrap>();
+            recipe.AddIngredient< WeedLeaves>();
+            recipe.AddIngredient< PlasticScrap>();
             recipe.AddTile(TileID.AlchemyTable);
             recipe.Register();
         }

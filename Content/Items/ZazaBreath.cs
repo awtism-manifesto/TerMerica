@@ -103,7 +103,7 @@ namespace gunrightsmod.Content.Items
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<Items.WeedLeaves>(28);
+            recipe.AddIngredient< WeedLeaves>(28);
             recipe.AddIngredient(ItemID.RichMahogany, 15);
             recipe.AddIngredient(ItemID.JungleSpores, 4);
             recipe.AddIngredient(ItemID.Torch, 25);

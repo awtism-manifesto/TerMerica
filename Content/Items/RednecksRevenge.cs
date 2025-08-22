@@ -132,7 +132,7 @@ namespace gunrightsmod.Content.Items
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<Items.RednecksRustBucket>();
+            recipe.AddIngredient<RednecksRustBucket>();
             recipe.AddIngredient(ItemID.SoulofFright, 10);
             recipe.AddIngredient(ItemID.SoulofSight, 10);
             recipe.AddIngredient(ItemID.SoulofMight, 10);

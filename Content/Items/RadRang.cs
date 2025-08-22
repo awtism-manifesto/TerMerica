@@ -93,7 +93,7 @@ namespace gunrightsmod.Content.Items
 
 
 
-            recipe.AddIngredient<Items.UraniumBar>(15);
+            recipe.AddIngredient< UraniumBar>(15);
 
 
             recipe.AddTile(TileID.Anvils);

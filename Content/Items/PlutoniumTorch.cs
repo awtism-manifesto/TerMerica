@@ -104,7 +104,7 @@ namespace gunrightsmod.Content.Items
         {
             Recipe recipe = CreateRecipe(35);
 
-            recipe.AddIngredient<Items.PlutoniumOre>();
+            recipe.AddIngredient< PlutoniumOre>();
             recipe.AddIngredient(ItemID.Torch, 35);
             
             recipe.Register();

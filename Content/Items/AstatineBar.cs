@@ -65,8 +65,8 @@ namespace gunrightsmod.Content.Items
         {
             Recipe recipe = CreateRecipe(2);
 
-            recipe.AddIngredient<Items.AstatineOre>(18);
-            recipe.AddIngredient<Items.PurifiedSalt>(3);
+            recipe.AddIngredient< AstatineOre>(18);
+            recipe.AddIngredient< PurifiedSalt>(3);
             recipe.AddTile(TileID.AdamantiteForge);
             recipe.Register();
 

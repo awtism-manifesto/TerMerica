@@ -129,9 +129,9 @@ namespace gunrightsmod.Content.Items
         {
             Recipe recipe = CreateRecipe();
 
-            recipe.AddIngredient<Items.HephaestusCannon>();
-            recipe.AddIngredient<Items.CardinalSin>();
-            recipe.AddIngredient<Items.ZazaBreath>();
+            recipe.AddIngredient< HephaestusCannon>();
+            recipe.AddIngredient< CardinalSin>();
+            recipe.AddIngredient< ZazaBreath>();
             recipe.AddIngredient<FissionDrive>();
 
             recipe.AddIngredient(ItemID.SoulofNight, 10);

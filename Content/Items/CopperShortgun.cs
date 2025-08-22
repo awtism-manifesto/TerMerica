@@ -98,7 +98,7 @@ namespace gunrightsmod.Content.Items
         {
             Recipe recipe = CreateRecipe();
 
-            recipe.AddIngredient<Items.ImprovisedPistol>();
+            recipe.AddIngredient< ImprovisedPistol>();
             recipe.AddIngredient(ItemID.CopperShortsword);
             recipe.AddTile(TileID.WorkBenches);
             recipe.Register();

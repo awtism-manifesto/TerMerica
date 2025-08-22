@@ -167,7 +167,7 @@ public class VP70 : ModItem
             recipe.AddIngredient(ItemID.ClockworkAssaultRifle);
             recipe.AddIngredient<Glock>();
           
-            recipe.AddIngredient<Items.Polymer>(25);
+            recipe.AddIngredient< Polymer>(25);
             recipe.AddTile(TileID.MythrilAnvil);
             recipe.Register();
            

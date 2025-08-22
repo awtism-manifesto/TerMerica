@@ -139,7 +139,7 @@ namespace gunrightsmod.Content.Items
 
             {
 
-                recipe.AddIngredient<Items.WindTome>();
+                recipe.AddIngredient<WindTome>();
 
             }
 

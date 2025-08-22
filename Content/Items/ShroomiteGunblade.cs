@@ -160,7 +160,7 @@ namespace gunrightsmod.Content.Items
             Recipe recipe = CreateRecipe();
            
             recipe.AddIngredient(ItemID.ChlorophyteSaber);
-            recipe.AddIngredient<Items.BulletBlade>();
+            recipe.AddIngredient<BulletBlade>();
             recipe.AddIngredient(ItemID.ShroomiteBar, 12);
            
            

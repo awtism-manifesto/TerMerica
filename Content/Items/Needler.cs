@@ -118,7 +118,7 @@ namespace gunrightsmod.Content.Items
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<Items.PlutoniumBar>(15);
+            recipe.AddIngredient< PlutoniumBar>(15);
             recipe.AddIngredient(ItemID.CrystalShard, 10);
            
 

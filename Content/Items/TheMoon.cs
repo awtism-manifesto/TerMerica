@@ -113,7 +113,7 @@ namespace gunrightsmod.Content.Items
             {
                 recipe = CreateRecipe();
 
-                recipe.AddIngredient<Items.FragmentFlatEarth>(10);
+                recipe.AddIngredient< FragmentFlatEarth>(10);
                 recipe.AddIngredient(ItemID.LunarBar, 8);
 
                 recipe.AddTile(TileID.LunarCraftingStation);

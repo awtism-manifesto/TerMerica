@@ -97,7 +97,7 @@ namespace gunrightsmod.Content.Items
         {
             Recipe recipe = CreateRecipe();
 
-            recipe.AddIngredient<Items.PlutoniumBar>(18);
+            recipe.AddIngredient< PlutoniumBar>(18);
            
             recipe.AddTile(TileID.MythrilAnvil);
             recipe.Register();

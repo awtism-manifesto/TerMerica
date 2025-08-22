@@ -97,7 +97,7 @@ namespace gunrightsmod.Content.Items
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<Items.WeedLeaves>(49);
+            recipe.AddIngredient<WeedLeaves>(49);
             recipe.AddTile(TileID.Loom);
            
             recipe.Register();

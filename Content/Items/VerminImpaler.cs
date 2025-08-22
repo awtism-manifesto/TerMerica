@@ -76,7 +76,7 @@ namespace gunrightsmod.Content.Items
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient(ItemID.SpiderFang, 12);
-            recipe.AddIngredient<Items.EyePoker>();
+            recipe.AddIngredient< EyePoker>();
 
 
             recipe.AddTile(TileID.Anvils);

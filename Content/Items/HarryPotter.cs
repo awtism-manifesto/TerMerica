@@ -131,7 +131,7 @@ namespace gunrightsmod.Content.Items
              
                 recipe.AddIngredient(BloatItem.Type, 10);
                 recipe.AddIngredient(Paper.Type, 100);
-                recipe.AddIngredient<Items.CeramicSheet>(40);
+                recipe.AddIngredient< CeramicSheet>(40);
                 recipe.AddTile(TileID.Bookcases);
                 recipe.Register();
 
@@ -140,7 +140,7 @@ namespace gunrightsmod.Content.Items
                 recipe.AddIngredient(ItemID.FallenStar, 5);
                 recipe.AddIngredient(ItemID.Book);
 
-                recipe.AddIngredient<Items.CeramicSheet>(40);
+                recipe.AddIngredient< CeramicSheet>(40);
                 recipe.AddTile(TileID.Bookcases);
                 recipe.Register();
 
@@ -151,7 +151,7 @@ namespace gunrightsmod.Content.Items
                 recipe.AddIngredient(ItemID.FallenStar, 5);
                 recipe.AddIngredient(ItemID.Book);
 
-                recipe.AddIngredient<Items.CeramicSheet>(40);
+                recipe.AddIngredient< CeramicSheet>(40);
                 recipe.AddTile(TileID.Bookcases);
                 recipe.Register();
 

@@ -171,8 +171,8 @@ namespace gunrightsmod.Content.Items
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient(ItemID.BrokenHeroSword);
             recipe.AddIngredient(ItemID.StarWrath);
-            recipe.AddIngredient<Items.DeliriantDagger>();
-            recipe.AddIngredient<Items.BallisticKnife>();
+            recipe.AddIngredient< DeliriantDagger>();
+            recipe.AddIngredient< BallisticKnife>();
             recipe.AddIngredient(ItemID.UnholyTrident);
           
             recipe.AddIngredient(ItemID.EmpressBlade);

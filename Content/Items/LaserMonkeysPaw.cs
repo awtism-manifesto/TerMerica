@@ -100,9 +100,9 @@ namespace gunrightsmod.Content.Items
         {
             Recipe
             recipe = CreateRecipe();
-            recipe.AddIngredient<Items.SuperMonkeysPaw>();
+            recipe.AddIngredient< SuperMonkeysPaw>();
            
-            recipe.AddIngredient<Items.PlutoniumBar>(15);
+            recipe.AddIngredient< PlutoniumBar>(15);
             recipe.AddIngredient(ItemID.HallowedBar, 10);
             recipe.AddIngredient(ItemID.SoulofLight, 5);
             recipe.AddIngredient(ItemID.SoulofNight, 5);

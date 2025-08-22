@@ -104,7 +104,7 @@ namespace gunrightsmod.Content.Items
         {
             Recipe recipe = CreateRecipe(50);
 
-            recipe.AddIngredient<Items.AstatineOre>();
+            recipe.AddIngredient< AstatineOre>();
             recipe.AddIngredient(ItemID.Torch, 50);
             
             recipe.Register();

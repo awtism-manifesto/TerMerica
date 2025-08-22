@@ -38,11 +38,7 @@ namespace gunrightsmod.Content.Projectiles
             AIType = ProjectileID.Bullet; // Act exactly like default Bullet
 
         }
-        public override void SetStaticDefaults()
-        {
-
-            Main.projFrames[Projectile.type] = 3;
-        }
+       
         public override void AI()
         {
             Projectile.scale = Main.rand.NextFloat(0.66f, 1.25f);

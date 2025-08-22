@@ -100,7 +100,7 @@ namespace gunrightsmod.Content.Items
             if (ModLoader.TryGetMod("CalamityMod", out Mod CalMerica) && CalMerica.TryFind<ModItem>("AerialiteBar", out ModItem AerialiteBar))
             {
                 recipe = CreateRecipe();
-                recipe.AddIngredient<Items.Glock>();
+                recipe.AddIngredient<Glock>();
                 recipe.AddIngredient(AerialiteBar.Type, 15);
                 recipe.AddIngredient(ItemID.SoulofFlight, 12);
                 recipe.AddTile(TileID.MythrilAnvil);
@@ -109,7 +109,7 @@ namespace gunrightsmod.Content.Items
             else
             {
                 recipe = CreateRecipe();
-                recipe.AddIngredient<Items.Glock>();
+                recipe.AddIngredient<Glock>();
                 recipe.AddIngredient(ItemID.AdamantiteBar, 15);
 
                 recipe.AddIngredient(ItemID.SoulofFlight, 12);
@@ -117,7 +117,7 @@ namespace gunrightsmod.Content.Items
                 recipe.Register();
 
                 recipe = CreateRecipe();
-                recipe.AddIngredient<Items.Glock>();
+                recipe.AddIngredient<Glock>();
                 recipe.AddIngredient(ItemID.TitaniumBar, 15);
 
                 recipe.AddIngredient(ItemID.SoulofFlight, 12);

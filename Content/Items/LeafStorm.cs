@@ -122,7 +122,7 @@ namespace gunrightsmod.Content.Items
 
                 recipe.AddIngredient(ItemID.HeatRay);
                 recipe.AddIngredient(ItemID.LeafBlower);
-            recipe.AddIngredient<Items.CyberneticGunParts>();
+            recipe.AddIngredient< CyberneticGunParts>();
             recipe.AddTile(TileID.MythrilAnvil);
             recipe.Register();
             

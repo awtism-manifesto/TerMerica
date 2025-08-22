@@ -75,17 +75,17 @@ namespace gunrightsmod.Content.Items
             {
                 Recipe recipe = CreateRecipe();
                 recipe.AddIngredient(LeadskinPotion.Type);
-                recipe.AddIngredient<Items.WeedLeaves>();
-                recipe.AddIngredient<Items.PurifiedSalt>();
-                recipe.AddIngredient<Items.UraniumOre>();
+                recipe.AddIngredient< WeedLeaves>();
+                recipe.AddIngredient< PurifiedSalt>();
+                recipe.AddIngredient< UraniumOre>();
                 recipe.AddTile(TileID.Bottles);
                 recipe.Register();
 
                 recipe = CreateRecipe();
                 recipe.AddIngredient(LeadskinPotion.Type);
-                recipe.AddIngredient<Items.WeedLeaves>();
-                recipe.AddIngredient<Items.PurifiedSalt>();
-                recipe.AddIngredient<Items.UraniumOre>();
+                recipe.AddIngredient< WeedLeaves>();
+                recipe.AddIngredient< PurifiedSalt>();
+                recipe.AddIngredient< UraniumOre>();
                 recipe.AddTile(TileID.AlchemyTable);
                 recipe.Register();
                
@@ -96,17 +96,17 @@ namespace gunrightsmod.Content.Items
             {
                 Recipe recipe = CreateRecipe();
                 recipe.AddIngredient(ItemID.BottledWater);
-                recipe.AddIngredient<Items.WeedLeaves>();
-                recipe.AddIngredient<Items.PurifiedSalt>();
-                recipe.AddIngredient<Items.UraniumOre>();
+                recipe.AddIngredient< WeedLeaves>();
+                recipe.AddIngredient< PurifiedSalt>();
+                recipe.AddIngredient< UraniumOre>();
                 recipe.AddTile(TileID.Bottles);
                 recipe.Register();
 
                 recipe = CreateRecipe();
                 recipe.AddIngredient(ItemID.BottledWater);
-                recipe.AddIngredient<Items.WeedLeaves>();
-                recipe.AddIngredient<Items.PurifiedSalt>();
-                recipe.AddIngredient<Items.UraniumOre>();
+                recipe.AddIngredient< WeedLeaves>();
+                recipe.AddIngredient< PurifiedSalt>();
+                recipe.AddIngredient< UraniumOre>();
                 recipe.AddTile(TileID.AlchemyTable);
                 recipe.Register();
 

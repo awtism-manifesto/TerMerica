@@ -196,9 +196,9 @@ namespace gunrightsmod.Content.Items
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<Items.ClimateChanger>();
+            recipe.AddIngredient<ClimateChanger>();
             recipe.AddIngredient(ItemID.FragmentVortex, 8);
-            recipe.AddIngredient<Items.AstatineBar>(18);
+            recipe.AddIngredient<AstatineBar>(18);
             recipe.AddTile(TileID.LunarCraftingStation);
             recipe.Register();
             if (ModLoader.TryGetMod("SOTS", out Mod SOTSMerica) && SOTSMerica.TryFind("PhaseBar", out ModItem PhaseBar))

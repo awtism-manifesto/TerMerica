@@ -57,7 +57,7 @@ namespace gunrightsmod.Content.Items
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<Items.BlankFlag>(1);
+            recipe.AddIngredient<BlankFlag>(1);
             recipe.AddIngredient(ItemID.Wood, 2);
             recipe.AddTile(TileID.WorkBenches);
             recipe.Register();

@@ -54,7 +54,7 @@ namespace gunrightsmod.Content.Items
 
             // Gun Properties
             Item.shoot = ModContent.ProjectileType<BladegunWave>(); // For some reason, all the guns in the vanilla source have this.
-            Item.shootSpeed = 13.66f; // The speed of the projectile (measured in pixels per frame.)
+            Item.shootSpeed = 15.75f; // The speed of the projectile (measured in pixels per frame.)
             Item.useAmmo = AmmoID.None; // The "ammo Id" of the ammo item that this weapon uses. Ammo IDs are magic numbers that usually correspond to the item id of one item that most commonly represent the ammo type.
         }
 
@@ -168,7 +168,7 @@ namespace gunrightsmod.Content.Items
             Recipe recipe = CreateRecipe();
            
             recipe.AddIngredient(ItemID.ChlorophyteClaymore);
-            recipe.AddIngredient<Items.BulletBlade>();
+            recipe.AddIngredient<BulletBlade>();
             recipe.AddIngredient(ItemID.ShroomiteBar, 12);
            
            

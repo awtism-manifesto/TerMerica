@@ -146,10 +146,10 @@ namespace gunrightsmod.Content.Items
             Recipe 
             recipe = CreateRecipe();
             recipe.AddIngredient(ItemID.QuadBarrelShotgun);
-            recipe.AddIngredient<Items.ImprovisedMachineGun>();
-            recipe.AddIngredient<Items.ToothlessWyrm>();
-            recipe.AddIngredient<Items.Brainderbuss>();
-            recipe.AddIngredient<Items.UraniumShotgun>();
+            recipe.AddIngredient< ImprovisedMachineGun>();
+            recipe.AddIngredient< ToothlessWyrm>();
+            recipe.AddIngredient< Brainderbuss>();
+            recipe.AddIngredient< UraniumShotgun>();
             
             
             recipe.AddTile(TileID.DemonAltar);

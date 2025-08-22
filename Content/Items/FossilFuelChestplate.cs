@@ -93,8 +93,8 @@ namespace gunrightsmod.Content.Items
         {
             Recipe recipe = CreateRecipe();
 
-            recipe.AddIngredient<Items.CrudeOil>(80);
-            recipe.AddIngredient<Items.RefinedOil>(35);
+            recipe.AddIngredient< CrudeOil>(80);
+            recipe.AddIngredient< RefinedOil>(35);
             recipe.AddIngredient(ItemID.FossilShirt);
             recipe.AddTile(TileID.MythrilAnvil);
             recipe.Register();

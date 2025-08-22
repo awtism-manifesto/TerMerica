@@ -97,7 +97,7 @@ namespace gunrightsmod.Content.Items
         {
             Recipe recipe = CreateRecipe();
 
-            recipe.AddIngredient<Items.LycopiteBar>(13);
+            recipe.AddIngredient< LycopiteBar>(13);
             recipe.AddIngredient(ItemID.GlowingMushroom, 10);
             recipe.AddIngredient(ItemID.Mushroom, 5);
           

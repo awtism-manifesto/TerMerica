@@ -121,7 +121,7 @@ namespace gunrightsmod.Content.Items
         {
             Recipe recipe = CreateRecipe();
           
-            recipe.AddIngredient<Items.LycopiteBar>(13);
+            recipe.AddIngredient<LycopiteBar>(13);
          
           
           

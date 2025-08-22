@@ -322,31 +322,31 @@ namespace gunrightsmod.Content.Items
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<Items.TrueJfkExperience>();
+            recipe.AddIngredient<TrueJfkExperience>();
             recipe.AddIngredient(ItemID.SDMG);
-            recipe.AddIngredient<Items.GlockAndBalls>();
-            recipe.AddIngredient<Items.AA12>();
+            recipe.AddIngredient<GlockAndBalls>();
+            recipe.AddIngredient<AA12>();
             recipe.AddIngredient(ItemID.VortexBeater);
-            recipe.AddIngredient<Items.DaedalusStormgun>();
-            recipe.AddIngredient<Items.PhotonShotgun>();
+            recipe.AddIngredient<DaedalusStormgun>();
+            recipe.AddIngredient<PhotonShotgun>();
             recipe.AddIngredient(ItemID.Xenopopper);
-            recipe.AddIngredient<Items.TheMagnum>();
-            recipe.AddIngredient<Items.ATFsNightmare>();
+            recipe.AddIngredient<TheMagnum>();
+            recipe.AddIngredient<ATFsNightmare>();
 
-            recipe.AddIngredient<Items.TheNanoshot>();
+            recipe.AddIngredient<TheNanoshot>();
 
             recipe.AddIngredient(ItemID.CandyCornRifle);
             recipe.AddIngredient(ItemID.VenusMagnum);
-            recipe.AddIngredient<Items.MidnightAfterburner>();
-            recipe.AddIngredient<Items.PlutoniumAutoPistol>();
-            recipe.AddIngredient<Items.ThePrimeTime>();
-            recipe.AddIngredient<Items.CryonicCarbine>();
-            recipe.AddIngredient<Items.Bundlebuss>();
-            recipe.AddIngredient<Items.VP70>();
+            recipe.AddIngredient<MidnightAfterburner>();
+            recipe.AddIngredient<PlutoniumAutoPistol>();
+            recipe.AddIngredient<ThePrimeTime>();
+            recipe.AddIngredient<CryonicCarbine>();
+            recipe.AddIngredient<Bundlebuss>();
+            recipe.AddIngredient<VP70>();
 
             recipe.AddIngredient(ItemID.SnowballCannon);
-            recipe.AddIngredient<Items.TheDeposer>();
-            recipe.AddIngredient<Items.CopperShortmachinegun>();
+            recipe.AddIngredient<TheDeposer>();
+            recipe.AddIngredient<CopperShortmachinegun>();
             recipe.AddTile(TileID.LunarCraftingStation);
             recipe.Register();
 
